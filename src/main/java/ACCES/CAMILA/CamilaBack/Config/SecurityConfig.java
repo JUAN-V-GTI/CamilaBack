@@ -7,9 +7,8 @@ import org.springframework.security.config.annotation.web.configuration.EnableWe
 import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
+
 import ACCES.CAMILA.CamilaBack.JWT.JwtAuthenticationFilter;
-
-
 import lombok.RequiredArgsConstructor;
 
 @Configuration
@@ -29,7 +28,7 @@ public class SecurityConfig {
                 .disable())
             .authorizeHttpRequests(authRequest ->
               authRequest
-                .requestMatchers("/camila-acces/**").permitAll()
+                .requestMatchers("/cam/**").permitAll()
                 .anyRequest().authenticated()
                 )
             .sessionManagement(sessionManager->

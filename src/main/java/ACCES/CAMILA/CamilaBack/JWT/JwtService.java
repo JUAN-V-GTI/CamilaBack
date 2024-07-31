@@ -30,7 +30,7 @@ public class JwtService {
             .setSubject(user.getUsername())
             .setIssuedAt(new Date(System.currentTimeMillis()))
             //1000 milisegundos * 60 segundos * 24 horas = 86400000 milisegundos (que es igual a 24 horas).
-            .setExpiration(new Date(System.currentTimeMillis()+1000*60*2400))
+            .setExpiration(new Date(System.currentTimeMillis()+1000*60*24))
 
             .signWith(getKey(), SignatureAlgorithm.HS256)
             .compact();
@@ -76,4 +76,6 @@ public class JwtService {
         return getExpiration(token).before(new Date());
     }
     
+    
+ 
 }
