@@ -8,10 +8,10 @@ import org.springframework.stereotype.Service;
 import ACCES.CAMILA.CamilaBack.DTOS.AuthResponse;
 import ACCES.CAMILA.CamilaBack.DTOS.LoginRequest;
 import ACCES.CAMILA.CamilaBack.DTOS.RegisterRequest;
-import ACCES.CAMILA.CamilaBack.Models.Role;
-import ACCES.CAMILA.CamilaBack.Repositories.UserRepository;
 import ACCES.CAMILA.CamilaBack.JWT.JwtService;
+import ACCES.CAMILA.CamilaBack.Models.Role;
 import ACCES.CAMILA.CamilaBack.Models.User;
+import ACCES.CAMILA.CamilaBack.Repositories.UserRepository;
 import lombok.RequiredArgsConstructor;
 @Service
 @RequiredArgsConstructor
@@ -62,5 +62,5 @@ public class AuthService {
             .build();
         
     }
-
+  
 }
