@@ -1,838 +1,298 @@
-[31/07/2024 12:00:02] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [INFO ] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-[31/07/2024 12:00:02] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Closing JPA EntityManagerFactory for persistence unit 'default'
-[31/07/2024 12:00:02] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-14 - Shutdown initiated...
-[31/07/2024 12:00:02] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-14 - Shutdown completed.
-[31/07/2024 12:00:02] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - Starting CamilaBackApplication using Java 22.0.1 with PID 18044 (C:\Users\Juan\OneDrive\Documentos\CamilaBack\target\classes started by Juan in C:\Users\Juan\OneDrive\Documentos\CamilaBack)
-[31/07/2024 12:00:02] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - No active profile set, falling back to 1 default profile: "default"
-[31/07/2024 12:00:03] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-[31/07/2024 12:00:03] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Finished Spring Data repository scanning in 14 ms. Found 1 JPA repository interface.
-[31/07/2024 12:00:03] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO ] - Tomcat initialized with port 8080 (http)
-[31/07/2024 12:00:03] [org.apache.catalina.core.StandardService] [INFO ] - Starting service [Tomcat]
-[31/07/2024 12:00:03] [org.apache.catalina.core.StandardEngine] [INFO ] - Starting Servlet engine: [Apache Tomcat/10.1.26]
-[31/07/2024 12:00:03] [org.apache.catalina.core.ContainerBase.[Tomcat-2].[localhost].[/]] [INFO ] - Initializing Spring embedded WebApplicationContext
-[31/07/2024 12:00:03] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [INFO ] - Root WebApplicationContext: initialization completed in 584 ms
-[31/07/2024 12:00:03] [org.hibernate.jpa.internal.util.LogHelper] [INFO ] - HHH000204: Processing PersistenceUnitInfo [name: default]
-[31/07/2024 12:00:03] [org.hibernate.cache.internal.RegionFactoryInitiator] [INFO ] - HHH000026: Second-level cache disabled
-[31/07/2024 12:00:03] [org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo] [INFO ] - No LoadTimeWeaver setup: ignoring JPA class transformer
-[31/07/2024 12:00:03] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-15 - Starting...
-[31/07/2024 12:00:03] [com.zaxxer.hikari.pool.HikariPool] [INFO ] - HikariPool-15 - Added connection org.postgresql.jdbc.PgConnection@2a15adbb
-[31/07/2024 12:00:03] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-15 - Start completed.
-[31/07/2024 12:00:03] [org.hibernate.orm.deprecation] [WARN ] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-[31/07/2024 12:00:03] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [INFO ] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-[31/07/2024 12:00:03] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Initialized JPA EntityManagerFactory for persistence unit 'default'
-[31/07/2024 12:00:03] [org.springframework.security.config.annotation.authentication.configuration.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer] [INFO ] - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-[31/07/2024 12:00:03] [org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer] [WARN ] - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
-[31/07/2024 12:00:03] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [WARN ] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-[31/07/2024 12:00:04] [org.springframework.security.web.DefaultSecurityFilterChain] [DEBUG] - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
-[31/07/2024 12:00:04] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [INFO ] - LiveReload server is running on port 35729
-[31/07/2024 12:00:04] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO ] - Tomcat started on port 8080 (http) with context path '/'
-[31/07/2024 12:00:04] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - Started CamilaBackApplication in 1.442 seconds (process running for 463.179)
-[31/07/2024 12:00:04] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [INFO ] - Condition evaluation unchanged
-[31/07/2024 12:00:05] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [INFO ] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-[31/07/2024 12:00:05] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Closing JPA EntityManagerFactory for persistence unit 'default'
-[31/07/2024 12:00:05] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-15 - Shutdown initiated...
-[31/07/2024 12:00:05] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-15 - Shutdown completed.
-[31/07/2024 12:00:05] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - Starting CamilaBackApplication using Java 22.0.1 with PID 18044 (C:\Users\Juan\OneDrive\Documentos\CamilaBack\target\classes started by Juan in C:\Users\Juan\OneDrive\Documentos\CamilaBack)
-[31/07/2024 12:00:05] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - No active profile set, falling back to 1 default profile: "default"
-[31/07/2024 12:00:06] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-[31/07/2024 12:00:06] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Finished Spring Data repository scanning in 12 ms. Found 1 JPA repository interface.
-[31/07/2024 12:00:06] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO ] - Tomcat initialized with port 8080 (http)
-[31/07/2024 12:00:06] [org.apache.catalina.core.StandardService] [INFO ] - Starting service [Tomcat]
-[31/07/2024 12:00:06] [org.apache.catalina.core.StandardEngine] [INFO ] - Starting Servlet engine: [Apache Tomcat/10.1.26]
-[31/07/2024 12:00:06] [org.apache.catalina.core.ContainerBase.[Tomcat-2].[localhost].[/]] [INFO ] - Initializing Spring embedded WebApplicationContext
-[31/07/2024 12:00:06] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [INFO ] - Root WebApplicationContext: initialization completed in 398 ms
-[31/07/2024 12:00:06] [org.hibernate.jpa.internal.util.LogHelper] [INFO ] - HHH000204: Processing PersistenceUnitInfo [name: default]
-[31/07/2024 12:00:06] [org.hibernate.cache.internal.RegionFactoryInitiator] [INFO ] - HHH000026: Second-level cache disabled
-[31/07/2024 12:00:06] [org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo] [INFO ] - No LoadTimeWeaver setup: ignoring JPA class transformer
-[31/07/2024 12:00:06] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-16 - Starting...
-[31/07/2024 12:00:06] [com.zaxxer.hikari.pool.HikariPool] [INFO ] - HikariPool-16 - Added connection org.postgresql.jdbc.PgConnection@d3cd7b7
-[31/07/2024 12:00:06] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-16 - Start completed.
-[31/07/2024 12:00:06] [org.hibernate.orm.deprecation] [WARN ] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-[31/07/2024 12:00:06] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [INFO ] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-[31/07/2024 12:00:06] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Initialized JPA EntityManagerFactory for persistence unit 'default'
-[31/07/2024 12:00:06] [org.springframework.security.config.annotation.authentication.configuration.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer] [INFO ] - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-[31/07/2024 12:00:06] [org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer] [WARN ] - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
-[31/07/2024 12:00:06] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [WARN ] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-[31/07/2024 12:00:06] [org.springframework.security.web.DefaultSecurityFilterChain] [DEBUG] - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
-[31/07/2024 12:00:06] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [INFO ] - LiveReload server is running on port 35729
-[31/07/2024 12:00:06] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO ] - Tomcat started on port 8080 (http) with context path '/'
-[31/07/2024 12:00:06] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - Started CamilaBackApplication in 1.194 seconds (process running for 465.871)
-[31/07/2024 12:00:06] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [INFO ] - Condition evaluation unchanged
-[31/07/2024 12:00:10] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [INFO ] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-[31/07/2024 12:00:10] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Closing JPA EntityManagerFactory for persistence unit 'default'
-[31/07/2024 12:00:10] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-16 - Shutdown initiated...
-[31/07/2024 12:00:10] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-16 - Shutdown completed.
-[31/07/2024 12:00:10] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - Starting CamilaBackApplication using Java 22.0.1 with PID 18044 (C:\Users\Juan\OneDrive\Documentos\CamilaBack\target\classes started by Juan in C:\Users\Juan\OneDrive\Documentos\CamilaBack)
-[31/07/2024 12:00:10] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - No active profile set, falling back to 1 default profile: "default"
-[31/07/2024 12:00:11] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-[31/07/2024 12:00:11] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Finished Spring Data repository scanning in 19 ms. Found 1 JPA repository interface.
-[31/07/2024 12:00:11] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO ] - Tomcat initialized with port 8080 (http)
-[31/07/2024 12:00:11] [org.apache.catalina.core.StandardService] [INFO ] - Starting service [Tomcat]
-[31/07/2024 12:00:11] [org.apache.catalina.core.StandardEngine] [INFO ] - Starting Servlet engine: [Apache Tomcat/10.1.26]
-[31/07/2024 12:00:11] [org.apache.catalina.core.ContainerBase.[Tomcat-2].[localhost].[/]] [INFO ] - Initializing Spring embedded WebApplicationContext
-[31/07/2024 12:00:11] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [INFO ] - Root WebApplicationContext: initialization completed in 640 ms
-[31/07/2024 12:00:11] [org.hibernate.jpa.internal.util.LogHelper] [INFO ] - HHH000204: Processing PersistenceUnitInfo [name: default]
-[31/07/2024 12:00:11] [org.hibernate.cache.internal.RegionFactoryInitiator] [INFO ] - HHH000026: Second-level cache disabled
-[31/07/2024 12:00:11] [org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo] [INFO ] - No LoadTimeWeaver setup: ignoring JPA class transformer
-[31/07/2024 12:00:11] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-17 - Starting...
-[31/07/2024 12:00:11] [com.zaxxer.hikari.pool.HikariPool] [INFO ] - HikariPool-17 - Added connection org.postgresql.jdbc.PgConnection@406bf75c
-[31/07/2024 12:00:11] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-17 - Start completed.
-[31/07/2024 12:00:11] [org.hibernate.orm.deprecation] [WARN ] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-[31/07/2024 12:00:11] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [INFO ] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-[31/07/2024 12:00:11] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Initialized JPA EntityManagerFactory for persistence unit 'default'
-[31/07/2024 12:00:11] [org.springframework.security.config.annotation.authentication.configuration.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer] [INFO ] - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-[31/07/2024 12:00:11] [org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer] [WARN ] - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
-[31/07/2024 12:00:11] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [WARN ] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-[31/07/2024 12:00:11] [org.springframework.security.web.DefaultSecurityFilterChain] [DEBUG] - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
-[31/07/2024 12:00:11] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [INFO ] - LiveReload server is running on port 35729
-[31/07/2024 12:00:11] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO ] - Tomcat started on port 8080 (http) with context path '/'
-[31/07/2024 12:00:11] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - Started CamilaBackApplication in 1.22 seconds (process running for 470.821)
-[31/07/2024 12:00:11] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [INFO ] - Condition evaluation unchanged
-[31/07/2024 12:00:39] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [INFO ] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-[31/07/2024 12:00:39] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Closing JPA EntityManagerFactory for persistence unit 'default'
-[31/07/2024 12:00:39] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-17 - Shutdown initiated...
-[31/07/2024 12:00:39] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-17 - Shutdown completed.
-[31/07/2024 12:00:39] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - Starting CamilaBackApplication using Java 22.0.1 with PID 18044 (C:\Users\Juan\OneDrive\Documentos\CamilaBack\target\classes started by Juan in C:\Users\Juan\OneDrive\Documentos\CamilaBack)
-[31/07/2024 12:00:39] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - No active profile set, falling back to 1 default profile: "default"
-[31/07/2024 12:00:40] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-[31/07/2024 12:00:40] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Finished Spring Data repository scanning in 20 ms. Found 1 JPA repository interface.
-[31/07/2024 12:00:40] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO ] - Tomcat initialized with port 8080 (http)
-[31/07/2024 12:00:40] [org.apache.catalina.core.StandardService] [INFO ] - Starting service [Tomcat]
-[31/07/2024 12:00:40] [org.apache.catalina.core.StandardEngine] [INFO ] - Starting Servlet engine: [Apache Tomcat/10.1.26]
-[31/07/2024 12:00:40] [org.apache.catalina.core.ContainerBase.[Tomcat-2].[localhost].[/]] [INFO ] - Initializing Spring embedded WebApplicationContext
-[31/07/2024 12:00:40] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [INFO ] - Root WebApplicationContext: initialization completed in 601 ms
-[31/07/2024 12:00:40] [org.hibernate.jpa.internal.util.LogHelper] [INFO ] - HHH000204: Processing PersistenceUnitInfo [name: default]
-[31/07/2024 12:00:40] [org.hibernate.cache.internal.RegionFactoryInitiator] [INFO ] - HHH000026: Second-level cache disabled
-[31/07/2024 12:00:40] [org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo] [INFO ] - No LoadTimeWeaver setup: ignoring JPA class transformer
-[31/07/2024 12:00:40] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-18 - Starting...
-[31/07/2024 12:00:40] [com.zaxxer.hikari.pool.HikariPool] [INFO ] - HikariPool-18 - Added connection org.postgresql.jdbc.PgConnection@444cb8ef
-[31/07/2024 12:00:40] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-18 - Start completed.
-[31/07/2024 12:00:40] [org.hibernate.orm.deprecation] [WARN ] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-[31/07/2024 12:00:40] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [INFO ] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-[31/07/2024 12:00:40] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Initialized JPA EntityManagerFactory for persistence unit 'default'
-[31/07/2024 12:00:40] [org.springframework.security.config.annotation.authentication.configuration.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer] [INFO ] - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-[31/07/2024 12:00:41] [org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer] [WARN ] - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
-[31/07/2024 12:00:41] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [WARN ] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-[31/07/2024 12:00:41] [org.springframework.security.web.DefaultSecurityFilterChain] [DEBUG] - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
-[31/07/2024 12:00:41] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [INFO ] - LiveReload server is running on port 35729
-[31/07/2024 12:00:41] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO ] - Tomcat started on port 8080 (http) with context path '/'
-[31/07/2024 12:00:41] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - Started CamilaBackApplication in 1.297 seconds (process running for 500.128)
-[31/07/2024 12:00:41] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [INFO ] - Condition evaluation unchanged
-[31/07/2024 12:01:00] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [INFO ] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-[31/07/2024 12:01:00] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Closing JPA EntityManagerFactory for persistence unit 'default'
-[31/07/2024 12:01:00] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-18 - Shutdown initiated...
-[31/07/2024 12:01:00] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-18 - Shutdown completed.
-[31/07/2024 12:01:00] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - Starting CamilaBackApplication using Java 22.0.1 with PID 18044 (C:\Users\Juan\OneDrive\Documentos\CamilaBack\target\classes started by Juan in C:\Users\Juan\OneDrive\Documentos\CamilaBack)
-[31/07/2024 12:01:00] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - No active profile set, falling back to 1 default profile: "default"
-[31/07/2024 12:01:00] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-[31/07/2024 12:01:00] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Finished Spring Data repository scanning in 23 ms. Found 1 JPA repository interface.
-[31/07/2024 12:01:01] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO ] - Tomcat initialized with port 8080 (http)
-[31/07/2024 12:01:01] [org.apache.catalina.core.StandardService] [INFO ] - Starting service [Tomcat]
-[31/07/2024 12:01:01] [org.apache.catalina.core.StandardEngine] [INFO ] - Starting Servlet engine: [Apache Tomcat/10.1.26]
-[31/07/2024 12:01:01] [org.apache.catalina.core.ContainerBase.[Tomcat-2].[localhost].[/]] [INFO ] - Initializing Spring embedded WebApplicationContext
-[31/07/2024 12:01:01] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [INFO ] - Root WebApplicationContext: initialization completed in 673 ms
-[31/07/2024 12:01:01] [org.hibernate.jpa.internal.util.LogHelper] [INFO ] - HHH000204: Processing PersistenceUnitInfo [name: default]
-[31/07/2024 12:01:01] [org.hibernate.cache.internal.RegionFactoryInitiator] [INFO ] - HHH000026: Second-level cache disabled
-[31/07/2024 12:01:01] [org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo] [INFO ] - No LoadTimeWeaver setup: ignoring JPA class transformer
-[31/07/2024 12:01:01] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-19 - Starting...
-[31/07/2024 12:01:01] [com.zaxxer.hikari.pool.HikariPool] [INFO ] - HikariPool-19 - Added connection org.postgresql.jdbc.PgConnection@7b47b343
-[31/07/2024 12:01:01] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-19 - Start completed.
-[31/07/2024 12:01:01] [org.hibernate.orm.deprecation] [WARN ] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-[31/07/2024 12:01:01] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [INFO ] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-[31/07/2024 12:01:01] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Initialized JPA EntityManagerFactory for persistence unit 'default'
-[31/07/2024 12:01:01] [org.springframework.security.config.annotation.authentication.configuration.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer] [INFO ] - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-[31/07/2024 12:01:01] [org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer] [WARN ] - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
-[31/07/2024 12:01:01] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [WARN ] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-[31/07/2024 12:01:01] [org.springframework.security.web.DefaultSecurityFilterChain] [DEBUG] - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
-[31/07/2024 12:01:01] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [INFO ] - LiveReload server is running on port 35729
-[31/07/2024 12:01:01] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO ] - Tomcat started on port 8080 (http) with context path '/'
-[31/07/2024 12:01:01] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - Started CamilaBackApplication in 1.387 seconds (process running for 520.61)
-[31/07/2024 12:01:01] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [INFO ] - Condition evaluation unchanged
-[31/07/2024 12:01:34] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [INFO ] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-[31/07/2024 12:01:34] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Closing JPA EntityManagerFactory for persistence unit 'default'
-[31/07/2024 12:01:34] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-19 - Shutdown initiated...
-[31/07/2024 12:01:34] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-19 - Shutdown completed.
-[31/07/2024 12:01:34] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - Starting CamilaBackApplication using Java 22.0.1 with PID 18044 (C:\Users\Juan\OneDrive\Documentos\CamilaBack\target\classes started by Juan in C:\Users\Juan\OneDrive\Documentos\CamilaBack)
-[31/07/2024 12:01:34] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - No active profile set, falling back to 1 default profile: "default"
-[31/07/2024 12:01:35] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-[31/07/2024 12:01:35] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Finished Spring Data repository scanning in 12 ms. Found 1 JPA repository interface.
-[31/07/2024 12:01:35] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO ] - Tomcat initialized with port 8080 (http)
-[31/07/2024 12:01:35] [org.apache.catalina.core.StandardService] [INFO ] - Starting service [Tomcat]
-[31/07/2024 12:01:35] [org.apache.catalina.core.StandardEngine] [INFO ] - Starting Servlet engine: [Apache Tomcat/10.1.26]
-[31/07/2024 12:01:35] [org.apache.catalina.core.ContainerBase.[Tomcat-2].[localhost].[/]] [INFO ] - Initializing Spring embedded WebApplicationContext
-[31/07/2024 12:01:35] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [INFO ] - Root WebApplicationContext: initialization completed in 377 ms
-[31/07/2024 12:01:35] [org.hibernate.jpa.internal.util.LogHelper] [INFO ] - HHH000204: Processing PersistenceUnitInfo [name: default]
-[31/07/2024 12:01:35] [org.hibernate.cache.internal.RegionFactoryInitiator] [INFO ] - HHH000026: Second-level cache disabled
-[31/07/2024 12:01:35] [org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo] [INFO ] - No LoadTimeWeaver setup: ignoring JPA class transformer
-[31/07/2024 12:01:35] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-20 - Starting...
-[31/07/2024 12:01:35] [com.zaxxer.hikari.pool.HikariPool] [INFO ] - HikariPool-20 - Added connection org.postgresql.jdbc.PgConnection@4e2ace35
-[31/07/2024 12:01:35] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-20 - Start completed.
-[31/07/2024 12:01:35] [org.hibernate.orm.deprecation] [WARN ] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-[31/07/2024 12:01:35] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [INFO ] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-[31/07/2024 12:01:35] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Initialized JPA EntityManagerFactory for persistence unit 'default'
-[31/07/2024 12:01:35] [org.springframework.security.config.annotation.authentication.configuration.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer] [INFO ] - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-[31/07/2024 12:01:35] [org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer] [WARN ] - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
-[31/07/2024 12:01:35] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [WARN ] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-[31/07/2024 12:01:35] [org.springframework.security.web.DefaultSecurityFilterChain] [DEBUG] - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
-[31/07/2024 12:01:35] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [INFO ] - LiveReload server is running on port 35729
-[31/07/2024 12:01:35] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO ] - Tomcat started on port 8080 (http) with context path '/'
-[31/07/2024 12:01:35] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - Started CamilaBackApplication in 0.867 seconds (process running for 554.671)
-[31/07/2024 12:01:35] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [INFO ] - Condition evaluation unchanged
-[31/07/2024 12:03:40] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [INFO ] - Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
-[31/07/2024 12:03:40] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Closing JPA EntityManagerFactory for persistence unit 'default'
-[31/07/2024 12:03:40] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-20 - Shutdown initiated...
-[31/07/2024 12:03:40] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-20 - Shutdown completed.
-[31/07/2024 12:03:40] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - Starting CamilaBackApplication using Java 22.0.1 with PID 18044 (C:\Users\Juan\OneDrive\Documentos\CamilaBack\target\classes started by Juan in C:\Users\Juan\OneDrive\Documentos\CamilaBack)
-[31/07/2024 12:03:40] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - No active profile set, falling back to 1 default profile: "default"
-[31/07/2024 12:03:41] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-[31/07/2024 12:03:41] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Finished Spring Data repository scanning in 16 ms. Found 1 JPA repository interface.
-[31/07/2024 12:03:41] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO ] - Tomcat initialized with port 8080 (http)
-[31/07/2024 12:03:41] [org.apache.catalina.core.StandardService] [INFO ] - Starting service [Tomcat]
-[31/07/2024 12:03:41] [org.apache.catalina.core.StandardEngine] [INFO ] - Starting Servlet engine: [Apache Tomcat/10.1.26]
-[31/07/2024 12:03:41] [org.apache.catalina.core.ContainerBase.[Tomcat-2].[localhost].[/]] [INFO ] - Initializing Spring embedded WebApplicationContext
-[31/07/2024 12:03:41] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [INFO ] - Root WebApplicationContext: initialization completed in 528 ms
-[31/07/2024 12:03:41] [org.hibernate.jpa.internal.util.LogHelper] [INFO ] - HHH000204: Processing PersistenceUnitInfo [name: default]
-[31/07/2024 12:03:41] [org.hibernate.cache.internal.RegionFactoryInitiator] [INFO ] - HHH000026: Second-level cache disabled
-[31/07/2024 12:03:41] [org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo] [INFO ] - No LoadTimeWeaver setup: ignoring JPA class transformer
-[31/07/2024 12:03:41] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-21 - Starting...
-[31/07/2024 12:03:41] [com.zaxxer.hikari.pool.HikariPool] [INFO ] - HikariPool-21 - Added connection org.postgresql.jdbc.PgConnection@40ffe998
-[31/07/2024 12:03:41] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-21 - Start completed.
-[31/07/2024 12:03:41] [org.hibernate.orm.deprecation] [WARN ] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-[31/07/2024 12:03:41] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [INFO ] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-[31/07/2024 12:03:41] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Initialized JPA EntityManagerFactory for persistence unit 'default'
-[31/07/2024 12:03:41] [org.springframework.security.config.annotation.authentication.configuration.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer] [INFO ] - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-[31/07/2024 12:03:41] [org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer] [WARN ] - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
-[31/07/2024 12:03:41] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [WARN ] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-[31/07/2024 12:03:41] [org.springframework.security.web.DefaultSecurityFilterChain] [DEBUG] - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
-[31/07/2024 12:03:41] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [INFO ] - LiveReload server is running on port 35729
-[31/07/2024 12:03:42] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO ] - Tomcat started on port 8080 (http) with context path '/'
-[31/07/2024 12:03:42] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - Started CamilaBackApplication in 1.073 seconds (process running for 680.932)
-[31/07/2024 12:03:42] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [INFO ] - Condition evaluation unchanged
-[31/07/2024 12:03:43] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [INFO ] - Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
-[31/07/2024 12:03:43] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Closing JPA EntityManagerFactory for persistence unit 'default'
-[31/07/2024 12:03:43] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-21 - Shutdown initiated...
-[31/07/2024 12:03:43] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-21 - Shutdown completed.
-[31/07/2024 12:03:43] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - Starting CamilaBackApplication using Java 22.0.1 with PID 18044 (C:\Users\Juan\OneDrive\Documentos\CamilaBack\target\classes started by Juan in C:\Users\Juan\OneDrive\Documentos\CamilaBack)
-[31/07/2024 12:03:43] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - No active profile set, falling back to 1 default profile: "default"
-[31/07/2024 12:03:43] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-[31/07/2024 12:03:43] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Finished Spring Data repository scanning in 16 ms. Found 1 JPA repository interface.
-[31/07/2024 12:03:44] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO ] - Tomcat initialized with port 8080 (http)
-[31/07/2024 12:03:44] [org.apache.catalina.core.StandardService] [INFO ] - Starting service [Tomcat]
-[31/07/2024 12:03:44] [org.apache.catalina.core.StandardEngine] [INFO ] - Starting Servlet engine: [Apache Tomcat/10.1.26]
-[31/07/2024 12:03:44] [org.apache.catalina.core.ContainerBase.[Tomcat-2].[localhost].[/]] [INFO ] - Initializing Spring embedded WebApplicationContext
-[31/07/2024 12:03:44] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [INFO ] - Root WebApplicationContext: initialization completed in 473 ms
-[31/07/2024 12:03:44] [org.hibernate.jpa.internal.util.LogHelper] [INFO ] - HHH000204: Processing PersistenceUnitInfo [name: default]
-[31/07/2024 12:03:44] [org.hibernate.cache.internal.RegionFactoryInitiator] [INFO ] - HHH000026: Second-level cache disabled
-[31/07/2024 12:03:44] [org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo] [INFO ] - No LoadTimeWeaver setup: ignoring JPA class transformer
-[31/07/2024 12:03:44] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-22 - Starting...
-[31/07/2024 12:03:44] [com.zaxxer.hikari.pool.HikariPool] [INFO ] - HikariPool-22 - Added connection org.postgresql.jdbc.PgConnection@27b677d5
-[31/07/2024 12:03:44] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-22 - Start completed.
-[31/07/2024 12:03:44] [org.hibernate.orm.deprecation] [WARN ] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-[31/07/2024 12:03:44] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [INFO ] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-[31/07/2024 12:03:44] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Initialized JPA EntityManagerFactory for persistence unit 'default'
-[31/07/2024 12:03:44] [org.springframework.security.config.annotation.authentication.configuration.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer] [INFO ] - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-[31/07/2024 12:03:44] [org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer] [WARN ] - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
-[31/07/2024 12:03:44] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [WARN ] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-[31/07/2024 12:03:44] [org.springframework.security.web.DefaultSecurityFilterChain] [DEBUG] - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
-[31/07/2024 12:03:44] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [INFO ] - LiveReload server is running on port 35729
-[31/07/2024 12:03:44] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO ] - Tomcat started on port 8080 (http) with context path '/'
-[31/07/2024 12:03:44] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - Started CamilaBackApplication in 1.439 seconds (process running for 683.894)
-[31/07/2024 12:03:44] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [INFO ] - Condition evaluation unchanged
-[31/07/2024 12:04:07] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [INFO ] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-[31/07/2024 12:04:07] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Closing JPA EntityManagerFactory for persistence unit 'default'
-[31/07/2024 12:04:07] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-22 - Shutdown initiated...
-[31/07/2024 12:04:07] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-22 - Shutdown completed.
-[31/07/2024 12:04:07] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - Starting CamilaBackApplication using Java 22.0.1 with PID 18044 (C:\Users\Juan\OneDrive\Documentos\CamilaBack\target\classes started by Juan in C:\Users\Juan\OneDrive\Documentos\CamilaBack)
-[31/07/2024 12:04:07] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - No active profile set, falling back to 1 default profile: "default"
-[31/07/2024 12:04:08] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-[31/07/2024 12:04:08] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Finished Spring Data repository scanning in 10 ms. Found 1 JPA repository interface.
-[31/07/2024 12:04:08] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO ] - Tomcat initialized with port 8080 (http)
-[31/07/2024 12:04:08] [org.apache.catalina.core.StandardService] [INFO ] - Starting service [Tomcat]
-[31/07/2024 12:04:08] [org.apache.catalina.core.StandardEngine] [INFO ] - Starting Servlet engine: [Apache Tomcat/10.1.26]
-[31/07/2024 12:04:08] [org.apache.catalina.core.ContainerBase.[Tomcat-2].[localhost].[/]] [INFO ] - Initializing Spring embedded WebApplicationContext
-[31/07/2024 12:04:08] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [INFO ] - Root WebApplicationContext: initialization completed in 343 ms
-[31/07/2024 12:04:08] [org.hibernate.jpa.internal.util.LogHelper] [INFO ] - HHH000204: Processing PersistenceUnitInfo [name: default]
-[31/07/2024 12:04:08] [org.hibernate.cache.internal.RegionFactoryInitiator] [INFO ] - HHH000026: Second-level cache disabled
-[31/07/2024 12:04:08] [org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo] [INFO ] - No LoadTimeWeaver setup: ignoring JPA class transformer
-[31/07/2024 12:04:08] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-23 - Starting...
-[31/07/2024 12:04:08] [com.zaxxer.hikari.pool.HikariPool] [INFO ] - HikariPool-23 - Added connection org.postgresql.jdbc.PgConnection@75e88acf
-[31/07/2024 12:04:08] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-23 - Start completed.
-[31/07/2024 12:04:08] [org.hibernate.orm.deprecation] [WARN ] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-[31/07/2024 12:04:08] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [INFO ] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-[31/07/2024 12:04:08] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Initialized JPA EntityManagerFactory for persistence unit 'default'
-[31/07/2024 12:04:08] [org.springframework.security.config.annotation.authentication.configuration.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer] [INFO ] - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-[31/07/2024 12:04:08] [org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer] [WARN ] - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
-[31/07/2024 12:04:08] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [WARN ] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-[31/07/2024 12:04:08] [org.springframework.security.web.DefaultSecurityFilterChain] [DEBUG] - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
-[31/07/2024 12:04:08] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [INFO ] - LiveReload server is running on port 35729
-[31/07/2024 12:04:08] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO ] - Tomcat started on port 8080 (http) with context path '/'
-[31/07/2024 12:04:08] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - Started CamilaBackApplication in 0.917 seconds (process running for 707.746)
-[31/07/2024 12:04:08] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [INFO ] - Condition evaluation unchanged
-[31/07/2024 12:04:35] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [INFO ] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-[31/07/2024 12:04:35] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Closing JPA EntityManagerFactory for persistence unit 'default'
-[31/07/2024 12:04:35] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-23 - Shutdown initiated...
-[31/07/2024 12:04:35] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-23 - Shutdown completed.
-[31/07/2024 12:04:36] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - Starting CamilaBackApplication using Java 22.0.1 with PID 18044 (C:\Users\Juan\OneDrive\Documentos\CamilaBack\target\classes started by Juan in C:\Users\Juan\OneDrive\Documentos\CamilaBack)
-[31/07/2024 12:04:36] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - No active profile set, falling back to 1 default profile: "default"
-[31/07/2024 12:04:36] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-[31/07/2024 12:04:36] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Finished Spring Data repository scanning in 19 ms. Found 1 JPA repository interface.
-[31/07/2024 12:04:36] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO ] - Tomcat initialized with port 8080 (http)
-[31/07/2024 12:04:36] [org.apache.catalina.core.StandardService] [INFO ] - Starting service [Tomcat]
-[31/07/2024 12:04:36] [org.apache.catalina.core.StandardEngine] [INFO ] - Starting Servlet engine: [Apache Tomcat/10.1.26]
-[31/07/2024 12:04:36] [org.apache.catalina.core.ContainerBase.[Tomcat-2].[localhost].[/]] [INFO ] - Initializing Spring embedded WebApplicationContext
-[31/07/2024 12:04:36] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [INFO ] - Root WebApplicationContext: initialization completed in 604 ms
-[31/07/2024 12:04:36] [org.hibernate.jpa.internal.util.LogHelper] [INFO ] - HHH000204: Processing PersistenceUnitInfo [name: default]
-[31/07/2024 12:04:36] [org.hibernate.cache.internal.RegionFactoryInitiator] [INFO ] - HHH000026: Second-level cache disabled
-[31/07/2024 12:04:36] [org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo] [INFO ] - No LoadTimeWeaver setup: ignoring JPA class transformer
-[31/07/2024 12:04:36] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-24 - Starting...
-[31/07/2024 12:04:36] [com.zaxxer.hikari.pool.HikariPool] [INFO ] - HikariPool-24 - Added connection org.postgresql.jdbc.PgConnection@3c7e4f50
-[31/07/2024 12:04:36] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-24 - Start completed.
-[31/07/2024 12:04:36] [org.hibernate.orm.deprecation] [WARN ] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-[31/07/2024 12:04:36] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [INFO ] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-[31/07/2024 12:04:36] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Initialized JPA EntityManagerFactory for persistence unit 'default'
-[31/07/2024 12:04:37] [org.springframework.security.config.annotation.authentication.configuration.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer] [INFO ] - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-[31/07/2024 12:04:37] [org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer] [WARN ] - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
-[31/07/2024 12:04:37] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [WARN ] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-[31/07/2024 12:04:37] [org.springframework.security.web.DefaultSecurityFilterChain] [DEBUG] - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
-[31/07/2024 12:04:37] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [INFO ] - LiveReload server is running on port 35729
-[31/07/2024 12:04:37] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO ] - Tomcat started on port 8080 (http) with context path '/'
-[31/07/2024 12:04:37] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - Started CamilaBackApplication in 1.256 seconds (process running for 736.147)
-[31/07/2024 12:04:37] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [INFO ] - Condition evaluation unchanged
-[31/07/2024 12:04:50] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [INFO ] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-[31/07/2024 12:04:50] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Closing JPA EntityManagerFactory for persistence unit 'default'
-[31/07/2024 12:04:50] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-24 - Shutdown initiated...
-[31/07/2024 12:04:51] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-24 - Shutdown completed.
-[31/07/2024 12:04:51] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - Starting CamilaBackApplication using Java 22.0.1 with PID 18044 (C:\Users\Juan\OneDrive\Documentos\CamilaBack\target\classes started by Juan in C:\Users\Juan\OneDrive\Documentos\CamilaBack)
-[31/07/2024 12:04:51] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - No active profile set, falling back to 1 default profile: "default"
-[31/07/2024 12:04:51] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-[31/07/2024 12:04:51] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Finished Spring Data repository scanning in 28 ms. Found 1 JPA repository interface.
-[31/07/2024 12:04:51] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO ] - Tomcat initialized with port 8080 (http)
-[31/07/2024 12:04:51] [org.apache.catalina.core.StandardService] [INFO ] - Starting service [Tomcat]
-[31/07/2024 12:04:51] [org.apache.catalina.core.StandardEngine] [INFO ] - Starting Servlet engine: [Apache Tomcat/10.1.26]
-[31/07/2024 12:04:51] [org.apache.catalina.core.ContainerBase.[Tomcat-2].[localhost].[/]] [INFO ] - Initializing Spring embedded WebApplicationContext
-[31/07/2024 12:04:51] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [INFO ] - Root WebApplicationContext: initialization completed in 649 ms
-[31/07/2024 12:04:51] [org.hibernate.jpa.internal.util.LogHelper] [INFO ] - HHH000204: Processing PersistenceUnitInfo [name: default]
-[31/07/2024 12:04:51] [org.hibernate.cache.internal.RegionFactoryInitiator] [INFO ] - HHH000026: Second-level cache disabled
-[31/07/2024 12:04:51] [org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo] [INFO ] - No LoadTimeWeaver setup: ignoring JPA class transformer
-[31/07/2024 12:04:51] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-25 - Starting...
-[31/07/2024 12:04:52] [com.zaxxer.hikari.pool.HikariPool] [INFO ] - HikariPool-25 - Added connection org.postgresql.jdbc.PgConnection@1c74abb9
-[31/07/2024 12:04:52] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-25 - Start completed.
-[31/07/2024 12:04:52] [org.hibernate.orm.deprecation] [WARN ] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-[31/07/2024 12:04:52] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [INFO ] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-[31/07/2024 12:04:52] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Initialized JPA EntityManagerFactory for persistence unit 'default'
-[31/07/2024 12:04:52] [org.springframework.security.config.annotation.authentication.configuration.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer] [INFO ] - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-[31/07/2024 12:04:52] [org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer] [WARN ] - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
-[31/07/2024 12:04:52] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [WARN ] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-[31/07/2024 12:04:52] [org.springframework.security.web.DefaultSecurityFilterChain] [DEBUG] - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
-[31/07/2024 12:04:52] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [INFO ] - LiveReload server is running on port 35729
-[31/07/2024 12:04:52] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO ] - Tomcat started on port 8080 (http) with context path '/'
-[31/07/2024 12:04:52] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - Started CamilaBackApplication in 1.326 seconds (process running for 751.363)
-[31/07/2024 12:04:52] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [INFO ] - Condition evaluation unchanged
-[31/07/2024 12:04:54] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [INFO ] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-[31/07/2024 12:04:54] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Closing JPA EntityManagerFactory for persistence unit 'default'
-[31/07/2024 12:04:54] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-25 - Shutdown initiated...
-[31/07/2024 12:04:54] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-25 - Shutdown completed.
-[31/07/2024 12:04:55] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - Starting CamilaBackApplication using Java 22.0.1 with PID 18044 (C:\Users\Juan\OneDrive\Documentos\CamilaBack\target\classes started by Juan in C:\Users\Juan\OneDrive\Documentos\CamilaBack)
-[31/07/2024 12:04:55] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - No active profile set, falling back to 1 default profile: "default"
-[31/07/2024 12:04:55] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-[31/07/2024 12:04:55] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Finished Spring Data repository scanning in 20 ms. Found 1 JPA repository interface.
-[31/07/2024 12:04:55] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO ] - Tomcat initialized with port 8080 (http)
-[31/07/2024 12:04:55] [org.apache.catalina.core.StandardService] [INFO ] - Starting service [Tomcat]
-[31/07/2024 12:04:55] [org.apache.catalina.core.StandardEngine] [INFO ] - Starting Servlet engine: [Apache Tomcat/10.1.26]
-[31/07/2024 12:04:55] [org.apache.catalina.core.ContainerBase.[Tomcat-2].[localhost].[/]] [INFO ] - Initializing Spring embedded WebApplicationContext
-[31/07/2024 12:04:55] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [INFO ] - Root WebApplicationContext: initialization completed in 464 ms
-[31/07/2024 12:04:55] [org.hibernate.jpa.internal.util.LogHelper] [INFO ] - HHH000204: Processing PersistenceUnitInfo [name: default]
-[31/07/2024 12:04:55] [org.hibernate.cache.internal.RegionFactoryInitiator] [INFO ] - HHH000026: Second-level cache disabled
-[31/07/2024 12:04:55] [org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo] [INFO ] - No LoadTimeWeaver setup: ignoring JPA class transformer
-[31/07/2024 12:04:55] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-26 - Starting...
-[31/07/2024 12:04:55] [com.zaxxer.hikari.pool.HikariPool] [INFO ] - HikariPool-26 - Added connection org.postgresql.jdbc.PgConnection@3d8a9945
-[31/07/2024 12:04:55] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-26 - Start completed.
-[31/07/2024 12:04:55] [org.hibernate.orm.deprecation] [WARN ] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-[31/07/2024 12:04:55] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [INFO ] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-[31/07/2024 12:04:55] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Initialized JPA EntityManagerFactory for persistence unit 'default'
-[31/07/2024 12:04:56] [org.springframework.security.config.annotation.authentication.configuration.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer] [INFO ] - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-[31/07/2024 12:04:56] [org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer] [WARN ] - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
-[31/07/2024 12:04:56] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [WARN ] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-[31/07/2024 12:04:56] [org.springframework.security.web.DefaultSecurityFilterChain] [DEBUG] - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
-[31/07/2024 12:04:56] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [INFO ] - LiveReload server is running on port 35729
-[31/07/2024 12:04:56] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO ] - Tomcat started on port 8080 (http) with context path '/'
-[31/07/2024 12:04:56] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - Started CamilaBackApplication in 1.282 seconds (process running for 755.183)
-[31/07/2024 12:04:56] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [INFO ] - Condition evaluation unchanged
-[31/07/2024 12:05:27] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [INFO ] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-[31/07/2024 12:05:27] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Closing JPA EntityManagerFactory for persistence unit 'default'
-[31/07/2024 12:05:27] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-26 - Shutdown initiated...
-[31/07/2024 12:05:27] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-26 - Shutdown completed.
-[31/07/2024 12:05:27] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - Starting CamilaBackApplication using Java 22.0.1 with PID 18044 (C:\Users\Juan\OneDrive\Documentos\CamilaBack\target\classes started by Juan in C:\Users\Juan\OneDrive\Documentos\CamilaBack)
-[31/07/2024 12:05:27] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - No active profile set, falling back to 1 default profile: "default"
-[31/07/2024 12:05:27] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-[31/07/2024 12:05:27] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interface.
-[31/07/2024 12:05:27] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO ] - Tomcat initialized with port 8080 (http)
-[31/07/2024 12:05:27] [org.apache.catalina.core.StandardService] [INFO ] - Starting service [Tomcat]
-[31/07/2024 12:05:27] [org.apache.catalina.core.StandardEngine] [INFO ] - Starting Servlet engine: [Apache Tomcat/10.1.26]
-[31/07/2024 12:05:27] [org.apache.catalina.core.ContainerBase.[Tomcat-2].[localhost].[/]] [INFO ] - Initializing Spring embedded WebApplicationContext
-[31/07/2024 12:05:27] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [INFO ] - Root WebApplicationContext: initialization completed in 346 ms
-[31/07/2024 12:05:27] [org.hibernate.jpa.internal.util.LogHelper] [INFO ] - HHH000204: Processing PersistenceUnitInfo [name: default]
-[31/07/2024 12:05:27] [org.hibernate.cache.internal.RegionFactoryInitiator] [INFO ] - HHH000026: Second-level cache disabled
-[31/07/2024 12:05:27] [org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo] [INFO ] - No LoadTimeWeaver setup: ignoring JPA class transformer
-[31/07/2024 12:05:27] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-27 - Starting...
-[31/07/2024 12:05:27] [com.zaxxer.hikari.pool.HikariPool] [INFO ] - HikariPool-27 - Added connection org.postgresql.jdbc.PgConnection@6714011b
-[31/07/2024 12:05:27] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-27 - Start completed.
-[31/07/2024 12:05:27] [org.hibernate.orm.deprecation] [WARN ] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-[31/07/2024 12:05:27] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [INFO ] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-[31/07/2024 12:05:28] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Initialized JPA EntityManagerFactory for persistence unit 'default'
-[31/07/2024 12:05:28] [org.springframework.security.config.annotation.authentication.configuration.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer] [INFO ] - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-[31/07/2024 12:05:28] [org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer] [WARN ] - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
-[31/07/2024 12:05:28] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [WARN ] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-[31/07/2024 12:05:28] [org.springframework.security.web.DefaultSecurityFilterChain] [DEBUG] - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
-[31/07/2024 12:05:28] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [INFO ] - LiveReload server is running on port 35729
-[31/07/2024 12:05:28] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO ] - Tomcat started on port 8080 (http) with context path '/'
-[31/07/2024 12:05:28] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - Started CamilaBackApplication in 0.788 seconds (process running for 787.147)
-[31/07/2024 12:05:28] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [INFO ] - Condition evaluation unchanged
-[31/07/2024 12:05:55] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [INFO ] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-[31/07/2024 12:05:55] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Closing JPA EntityManagerFactory for persistence unit 'default'
-[31/07/2024 12:05:55] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-27 - Shutdown initiated...
-[31/07/2024 12:05:55] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-27 - Shutdown completed.
-[31/07/2024 12:05:55] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - Starting CamilaBackApplication using Java 22.0.1 with PID 18044 (C:\Users\Juan\OneDrive\Documentos\CamilaBack\target\classes started by Juan in C:\Users\Juan\OneDrive\Documentos\CamilaBack)
-[31/07/2024 12:05:55] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - No active profile set, falling back to 1 default profile: "default"
-[31/07/2024 12:05:55] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-[31/07/2024 12:05:55] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Finished Spring Data repository scanning in 17 ms. Found 1 JPA repository interface.
-[31/07/2024 12:05:55] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO ] - Tomcat initialized with port 8080 (http)
-[31/07/2024 12:05:55] [org.apache.catalina.core.StandardService] [INFO ] - Starting service [Tomcat]
-[31/07/2024 12:05:55] [org.apache.catalina.core.StandardEngine] [INFO ] - Starting Servlet engine: [Apache Tomcat/10.1.26]
-[31/07/2024 12:05:55] [org.apache.catalina.core.ContainerBase.[Tomcat-2].[localhost].[/]] [INFO ] - Initializing Spring embedded WebApplicationContext
-[31/07/2024 12:05:55] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [INFO ] - Root WebApplicationContext: initialization completed in 493 ms
-[31/07/2024 12:05:55] [org.hibernate.jpa.internal.util.LogHelper] [INFO ] - HHH000204: Processing PersistenceUnitInfo [name: default]
-[31/07/2024 12:05:55] [org.hibernate.cache.internal.RegionFactoryInitiator] [INFO ] - HHH000026: Second-level cache disabled
-[31/07/2024 12:05:55] [org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo] [INFO ] - No LoadTimeWeaver setup: ignoring JPA class transformer
-[31/07/2024 12:05:55] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-28 - Starting...
-[31/07/2024 12:05:56] [com.zaxxer.hikari.pool.HikariPool] [INFO ] - HikariPool-28 - Added connection org.postgresql.jdbc.PgConnection@32752a25
-[31/07/2024 12:05:56] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-28 - Start completed.
-[31/07/2024 12:05:56] [org.hibernate.orm.deprecation] [WARN ] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-[31/07/2024 12:05:56] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [INFO ] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-[31/07/2024 12:05:56] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Initialized JPA EntityManagerFactory for persistence unit 'default'
-[31/07/2024 12:05:56] [org.springframework.security.config.annotation.authentication.configuration.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer] [INFO ] - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-[31/07/2024 12:05:56] [org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer] [WARN ] - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
-[31/07/2024 12:05:56] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [WARN ] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-[31/07/2024 12:05:56] [org.springframework.security.web.DefaultSecurityFilterChain] [DEBUG] - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
-[31/07/2024 12:05:56] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [INFO ] - LiveReload server is running on port 35729
-[31/07/2024 12:05:56] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO ] - Tomcat started on port 8080 (http) with context path '/'
-[31/07/2024 12:05:56] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - Started CamilaBackApplication in 1.2 seconds (process running for 815.413)
-[31/07/2024 12:05:56] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [INFO ] - Condition evaluation unchanged
-[31/07/2024 12:07:44] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - Starting CamilaBackApplication using Java 22.0.1 with PID 14936 (C:\Users\Juan\OneDrive\Documentos\CamilaBack\target\classes started by Juan in C:\Users\Juan\OneDrive\Documentos\CamilaBack)
-[31/07/2024 12:07:44] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - No active profile set, falling back to 1 default profile: "default"
-[31/07/2024 12:07:44] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [INFO ] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-[31/07/2024 12:07:44] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [INFO ] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-[31/07/2024 12:07:45] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-[31/07/2024 12:07:45] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Finished Spring Data repository scanning in 112 ms. Found 1 JPA repository interface.
-[31/07/2024 12:07:47] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO ] - Tomcat initialized with port 8080 (http)
-[31/07/2024 12:07:47] [org.apache.catalina.core.StandardService] [INFO ] - Starting service [Tomcat]
-[31/07/2024 12:07:47] [org.apache.catalina.core.StandardEngine] [INFO ] - Starting Servlet engine: [Apache Tomcat/10.1.26]
-[31/07/2024 12:07:47] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [INFO ] - Initializing Spring embedded WebApplicationContext
-[31/07/2024 12:07:47] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [INFO ] - Root WebApplicationContext: initialization completed in 2742 ms
-[31/07/2024 12:07:47] [org.hibernate.jpa.internal.util.LogHelper] [INFO ] - HHH000204: Processing PersistenceUnitInfo [name: default]
-[31/07/2024 12:07:47] [org.hibernate.Version] [INFO ] - HHH000412: Hibernate ORM core version 6.5.2.Final
-[31/07/2024 12:07:47] [org.hibernate.cache.internal.RegionFactoryInitiator] [INFO ] - HHH000026: Second-level cache disabled
-[31/07/2024 12:07:48] [org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo] [INFO ] - No LoadTimeWeaver setup: ignoring JPA class transformer
-[31/07/2024 12:07:48] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Starting...
-[31/07/2024 12:07:48] [com.zaxxer.hikari.pool.HikariPool] [INFO ] - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@61075d62
-[31/07/2024 12:07:48] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Start completed.
-[31/07/2024 12:07:48] [org.hibernate.orm.deprecation] [WARN ] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-[31/07/2024 12:07:50] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [INFO ] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-[31/07/2024 12:07:50] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Initialized JPA EntityManagerFactory for persistence unit 'default'
-[31/07/2024 12:07:51] [org.springframework.security.config.annotation.authentication.configuration.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer] [INFO ] - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-[31/07/2024 12:07:51] [org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer] [WARN ] - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
-[31/07/2024 12:07:51] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [WARN ] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-[31/07/2024 12:07:52] [org.springframework.security.web.DefaultSecurityFilterChain] [DEBUG] - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
-[31/07/2024 12:07:52] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [INFO ] - LiveReload server is running on port 35729
-[31/07/2024 12:07:52] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO ] - Tomcat started on port 8080 (http) with context path '/'
-[31/07/2024 12:07:52] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - Started CamilaBackApplication in 9.184 seconds (process running for 9.906)
-[31/07/2024 12:10:08] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [INFO ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-[31/07/2024 12:10:08] [org.springframework.web.servlet.DispatcherServlet] [INFO ] - Initializing Servlet 'dispatcherServlet'
-[31/07/2024 12:10:08] [org.springframework.web.servlet.DispatcherServlet] [INFO ] - Completed initialization in 0 ms
-[31/07/2024 12:10:08] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Securing POST /camila/register
-[31/07/2024 12:10:08] [org.springframework.security.web.authentication.AnonymousAuthenticationFilter] [DEBUG] - Set SecurityContextHolder to anonymous SecurityContext
-[31/07/2024 12:10:08] [org.springframework.security.web.session.SessionManagementFilter] [DEBUG] - Request requested invalid session id 2E578C2839CBA295FB366F60041AD0F3
-[31/07/2024 12:10:08] [org.springframework.security.web.authentication.Http403ForbiddenEntryPoint] [DEBUG] - Pre-authenticated entry point called. Rejecting access
-[31/07/2024 12:10:08] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Securing POST /error
-[31/07/2024 12:10:08] [org.springframework.security.web.authentication.AnonymousAuthenticationFilter] [DEBUG] - Set SecurityContextHolder to anonymous SecurityContext
-[31/07/2024 12:10:08] [org.springframework.security.web.authentication.Http403ForbiddenEntryPoint] [DEBUG] - Pre-authenticated entry point called. Rejecting access
-[31/07/2024 12:16:50] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [INFO ] - Restarting due to 19 class path changes (0 additions, 1 deletion, 18 modifications)
-[31/07/2024 12:16:50] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Closing JPA EntityManagerFactory for persistence unit 'default'
-[31/07/2024 12:16:50] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Shutdown initiated...
-[31/07/2024 12:16:50] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Shutdown completed.
-[31/07/2024 12:21:01] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - Starting CamilaBackApplication using Java 22.0.1 with PID 14300 (C:\Users\Juan\OneDrive\Documentos\CamilaBack\target\classes started by Juan in C:\Users\Juan\OneDrive\Documentos\CamilaBack)
-[31/07/2024 12:21:01] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - No active profile set, falling back to 1 default profile: "default"
-[31/07/2024 12:21:01] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [INFO ] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-[31/07/2024 12:21:01] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [INFO ] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-[31/07/2024 12:21:03] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-[31/07/2024 12:21:03] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Finished Spring Data repository scanning in 108 ms. Found 1 JPA repository interface.
-[31/07/2024 12:21:04] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO ] - Tomcat initialized with port 8080 (http)
-[31/07/2024 12:21:04] [org.apache.catalina.core.StandardService] [INFO ] - Starting service [Tomcat]
-[31/07/2024 12:21:04] [org.apache.catalina.core.StandardEngine] [INFO ] - Starting Servlet engine: [Apache Tomcat/10.1.25]
-[31/07/2024 12:21:05] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [INFO ] - Initializing Spring embedded WebApplicationContext
-[31/07/2024 12:21:05] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [INFO ] - Root WebApplicationContext: initialization completed in 3354 ms
-[31/07/2024 12:21:05] [org.hibernate.jpa.internal.util.LogHelper] [INFO ] - HHH000204: Processing PersistenceUnitInfo [name: default]
-[31/07/2024 12:21:05] [org.hibernate.Version] [INFO ] - HHH000412: Hibernate ORM core version 6.5.2.Final
-[31/07/2024 12:21:05] [org.hibernate.cache.internal.RegionFactoryInitiator] [INFO ] - HHH000026: Second-level cache disabled
-[31/07/2024 12:21:06] [org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo] [INFO ] - No LoadTimeWeaver setup: ignoring JPA class transformer
-[31/07/2024 12:21:06] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Starting...
-[31/07/2024 12:21:06] [com.zaxxer.hikari.pool.HikariPool] [INFO ] - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7fc0ebf5
-[31/07/2024 12:21:06] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Start completed.
-[31/07/2024 12:21:06] [org.hibernate.orm.deprecation] [WARN ] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-[31/07/2024 12:21:08] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [INFO ] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-[31/07/2024 12:21:08] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Initialized JPA EntityManagerFactory for persistence unit 'default'
-[31/07/2024 12:21:09] [org.springframework.security.config.annotation.authentication.configuration.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer] [INFO ] - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-[31/07/2024 12:21:09] [org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer] [WARN ] - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
-[31/07/2024 12:21:09] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [WARN ] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-[31/07/2024 12:21:09] [org.springframework.security.web.DefaultSecurityFilterChain] [DEBUG] - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
-[31/07/2024 12:21:10] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [INFO ] - LiveReload server is running on port 35729
-[31/07/2024 12:21:10] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO ] - Tomcat started on port 8080 (http) with context path '/'
-[31/07/2024 12:21:10] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - Started CamilaBackApplication in 9.677 seconds (process running for 11.822)
-[31/07/2024 12:22:16] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [INFO ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-[31/07/2024 12:22:16] [org.springframework.web.servlet.DispatcherServlet] [INFO ] - Initializing Servlet 'dispatcherServlet'
-[31/07/2024 12:22:16] [org.springframework.web.servlet.DispatcherServlet] [INFO ] - Completed initialization in 4 ms
-[31/07/2024 12:22:16] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Securing POST /camila/register
-[31/07/2024 12:22:17] [org.springframework.security.web.authentication.AnonymousAuthenticationFilter] [DEBUG] - Set SecurityContextHolder to anonymous SecurityContext
-[31/07/2024 12:22:17] [org.springframework.security.web.session.SessionManagementFilter] [DEBUG] - Request requested invalid session id 2E578C2839CBA295FB366F60041AD0F3
-[31/07/2024 12:22:17] [org.springframework.security.web.authentication.Http403ForbiddenEntryPoint] [DEBUG] - Pre-authenticated entry point called. Rejecting access
-[31/07/2024 12:22:17] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Securing POST /error
-[31/07/2024 12:22:17] [org.springframework.security.web.authentication.AnonymousAuthenticationFilter] [DEBUG] - Set SecurityContextHolder to anonymous SecurityContext
-[31/07/2024 12:22:17] [org.springframework.security.web.authentication.Http403ForbiddenEntryPoint] [DEBUG] - Pre-authenticated entry point called. Rejecting access
-[31/07/2024 12:30:40] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - Starting CamilaBackApplication using Java 22.0.1 with PID 10340 (C:\Users\Juan\OneDrive\Documentos\CamilaBack\target\classes started by Juan in C:\Users\Juan\OneDrive\Documentos\CamilaBack)
-[31/07/2024 12:30:40] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - No active profile set, falling back to 1 default profile: "default"
-[31/07/2024 12:30:40] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [INFO ] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-[31/07/2024 12:30:40] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [INFO ] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-[31/07/2024 12:30:42] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-[31/07/2024 12:30:42] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Finished Spring Data repository scanning in 105 ms. Found 1 JPA repository interface.
-[31/07/2024 12:30:43] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO ] - Tomcat initialized with port 8080 (http)
-[31/07/2024 12:30:43] [org.apache.catalina.core.StandardService] [INFO ] - Starting service [Tomcat]
-[31/07/2024 12:30:43] [org.apache.catalina.core.StandardEngine] [INFO ] - Starting Servlet engine: [Apache Tomcat/10.1.26]
-[31/07/2024 12:30:43] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [INFO ] - Initializing Spring embedded WebApplicationContext
-[31/07/2024 12:30:43] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [INFO ] - Root WebApplicationContext: initialization completed in 2624 ms
-[31/07/2024 12:30:43] [org.hibernate.jpa.internal.util.LogHelper] [INFO ] - HHH000204: Processing PersistenceUnitInfo [name: default]
-[31/07/2024 12:30:43] [org.hibernate.Version] [INFO ] - HHH000412: Hibernate ORM core version 6.5.2.Final
-[31/07/2024 12:30:43] [org.hibernate.cache.internal.RegionFactoryInitiator] [INFO ] - HHH000026: Second-level cache disabled
-[31/07/2024 12:30:44] [org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo] [INFO ] - No LoadTimeWeaver setup: ignoring JPA class transformer
-[31/07/2024 12:30:44] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Starting...
-[31/07/2024 12:30:45] [com.zaxxer.hikari.pool.HikariPool] [INFO ] - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1b7facf4
-[31/07/2024 12:30:45] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Start completed.
-[31/07/2024 12:30:45] [org.hibernate.orm.deprecation] [WARN ] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-[31/07/2024 12:30:46] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [INFO ] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-[31/07/2024 12:30:46] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Initialized JPA EntityManagerFactory for persistence unit 'default'
-[31/07/2024 12:30:47] [org.springframework.security.config.annotation.authentication.configuration.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer] [INFO ] - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-[31/07/2024 12:30:47] [org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer] [WARN ] - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
-[31/07/2024 12:30:47] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [WARN ] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-[31/07/2024 12:30:47] [org.springframework.security.web.DefaultSecurityFilterChain] [DEBUG] - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
-[31/07/2024 12:30:48] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [INFO ] - LiveReload server is running on port 35729
-[31/07/2024 12:30:48] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO ] - Tomcat started on port 8080 (http) with context path '/'
-[31/07/2024 12:30:48] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - Started CamilaBackApplication in 8.433 seconds (process running for 9.484)
-[31/07/2024 12:31:27] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [INFO ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-[31/07/2024 12:31:27] [org.springframework.web.servlet.DispatcherServlet] [INFO ] - Initializing Servlet 'dispatcherServlet'
-[31/07/2024 12:31:27] [org.springframework.web.servlet.DispatcherServlet] [INFO ] - Completed initialization in 4 ms
-[31/07/2024 12:31:27] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Securing POST /cam/register
-[31/07/2024 12:31:27] [org.springframework.security.web.authentication.AnonymousAuthenticationFilter] [DEBUG] - Set SecurityContextHolder to anonymous SecurityContext
-[31/07/2024 12:31:27] [org.springframework.security.web.session.SessionManagementFilter] [DEBUG] - Request requested invalid session id 2E578C2839CBA295FB366F60041AD0F3
-[31/07/2024 12:31:27] [org.springframework.security.web.authentication.Http403ForbiddenEntryPoint] [DEBUG] - Pre-authenticated entry point called. Rejecting access
-[31/07/2024 12:31:27] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Securing POST /error
-[31/07/2024 12:31:27] [org.springframework.security.web.authentication.AnonymousAuthenticationFilter] [DEBUG] - Set SecurityContextHolder to anonymous SecurityContext
-[31/07/2024 12:31:27] [org.springframework.security.web.authentication.Http403ForbiddenEntryPoint] [DEBUG] - Pre-authenticated entry point called. Rejecting access
-[31/07/2024 03:49:55] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - Starting CamilaBackApplication using Java 22.0.1 with PID 16224 (C:\Users\Juan\OneDrive\Documentos\CamilaBack\target\classes started by Juan in C:\Users\Juan\OneDrive\Documentos\CamilaBack)
-[31/07/2024 03:49:55] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - No active profile set, falling back to 1 default profile: "default"
-[31/07/2024 03:49:55] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [INFO ] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-[31/07/2024 03:49:55] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [INFO ] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-[31/07/2024 03:49:57] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-[31/07/2024 03:49:57] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Finished Spring Data repository scanning in 136 ms. Found 1 JPA repository interface.
-[31/07/2024 03:49:59] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO ] - Tomcat initialized with port 8080 (http)
-[31/07/2024 03:49:59] [org.apache.catalina.core.StandardService] [INFO ] - Starting service [Tomcat]
-[31/07/2024 03:49:59] [org.apache.catalina.core.StandardEngine] [INFO ] - Starting Servlet engine: [Apache Tomcat/10.1.26]
-[31/07/2024 03:49:59] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [INFO ] - Initializing Spring embedded WebApplicationContext
-[31/07/2024 03:49:59] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [INFO ] - Root WebApplicationContext: initialization completed in 3635 ms
-[31/07/2024 03:49:59] [org.hibernate.jpa.internal.util.LogHelper] [INFO ] - HHH000204: Processing PersistenceUnitInfo [name: default]
-[31/07/2024 03:49:59] [org.hibernate.Version] [INFO ] - HHH000412: Hibernate ORM core version 6.5.2.Final
-[31/07/2024 03:50:00] [org.hibernate.cache.internal.RegionFactoryInitiator] [INFO ] - HHH000026: Second-level cache disabled
-[31/07/2024 03:50:00] [org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo] [INFO ] - No LoadTimeWeaver setup: ignoring JPA class transformer
-[31/07/2024 03:50:00] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Starting...
-[31/07/2024 03:50:01] [com.zaxxer.hikari.pool.HikariPool] [INFO ] - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@58a7ac24
-[31/07/2024 03:50:01] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Start completed.
-[31/07/2024 03:50:01] [org.hibernate.orm.deprecation] [WARN ] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-[31/07/2024 03:50:03] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [INFO ] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-[31/07/2024 03:50:04] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Initialized JPA EntityManagerFactory for persistence unit 'default'
-[31/07/2024 03:50:04] [org.springframework.security.config.annotation.authentication.configuration.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer] [INFO ] - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-[31/07/2024 03:50:04] [org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer] [WARN ] - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
-[31/07/2024 03:50:04] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [WARN ] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-[31/07/2024 03:50:05] [org.springframework.security.web.DefaultSecurityFilterChain] [DEBUG] - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
-[31/07/2024 03:50:05] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [INFO ] - LiveReload server is running on port 35729
-[31/07/2024 03:50:05] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO ] - Tomcat started on port 8080 (http) with context path '/'
-[31/07/2024 03:50:05] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - Started CamilaBackApplication in 11.093 seconds (process running for 12.27)
-[31/07/2024 03:51:50] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [INFO ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-[31/07/2024 03:51:50] [org.springframework.web.servlet.DispatcherServlet] [INFO ] - Initializing Servlet 'dispatcherServlet'
-[31/07/2024 03:51:50] [org.springframework.web.servlet.DispatcherServlet] [INFO ] - Completed initialization in 3 ms
-[31/07/2024 03:51:50] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Securing POST /cam/register
-[31/07/2024 03:51:50] [org.springframework.security.web.authentication.AnonymousAuthenticationFilter] [DEBUG] - Set SecurityContextHolder to anonymous SecurityContext
-[31/07/2024 03:51:50] [org.springframework.security.web.session.SessionManagementFilter] [DEBUG] - Request requested invalid session id 2E578C2839CBA295FB366F60041AD0F3
-[31/07/2024 03:51:50] [org.springframework.security.web.authentication.Http403ForbiddenEntryPoint] [DEBUG] - Pre-authenticated entry point called. Rejecting access
-[31/07/2024 03:51:50] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Securing POST /error
-[31/07/2024 03:51:50] [org.springframework.security.web.authentication.AnonymousAuthenticationFilter] [DEBUG] - Set SecurityContextHolder to anonymous SecurityContext
-[31/07/2024 03:51:50] [org.springframework.security.web.authentication.Http403ForbiddenEntryPoint] [DEBUG] - Pre-authenticated entry point called. Rejecting access
-[31/07/2024 03:56:22] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [INFO ] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-[31/07/2024 03:56:22] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Closing JPA EntityManagerFactory for persistence unit 'default'
-[31/07/2024 03:56:22] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Shutdown initiated...
-[31/07/2024 03:56:22] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Shutdown completed.
-[31/07/2024 03:56:22] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - Starting CamilaBackApplication using Java 22.0.1 with PID 16224 (C:\Users\Juan\OneDrive\Documentos\CamilaBack\target\classes started by Juan in C:\Users\Juan\OneDrive\Documentos\CamilaBack)
-[31/07/2024 03:56:22] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - No active profile set, falling back to 1 default profile: "default"
-[31/07/2024 03:56:23] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-[31/07/2024 03:56:23] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Finished Spring Data repository scanning in 33 ms. Found 1 JPA repository interface.
-[31/07/2024 03:56:23] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO ] - Tomcat initialized with port 8080 (http)
-[31/07/2024 03:56:23] [org.apache.catalina.core.StandardService] [INFO ] - Starting service [Tomcat]
-[31/07/2024 03:56:23] [org.apache.catalina.core.StandardEngine] [INFO ] - Starting Servlet engine: [Apache Tomcat/10.1.26]
-[31/07/2024 03:56:23] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [INFO ] - Initializing Spring embedded WebApplicationContext
-[31/07/2024 03:56:23] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [INFO ] - Root WebApplicationContext: initialization completed in 857 ms
-[31/07/2024 03:56:23] [org.hibernate.jpa.internal.util.LogHelper] [INFO ] - HHH000204: Processing PersistenceUnitInfo [name: default]
-[31/07/2024 03:56:23] [org.hibernate.cache.internal.RegionFactoryInitiator] [INFO ] - HHH000026: Second-level cache disabled
-[31/07/2024 03:56:23] [org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo] [INFO ] - No LoadTimeWeaver setup: ignoring JPA class transformer
-[31/07/2024 03:56:23] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-2 - Starting...
-[31/07/2024 03:56:24] [com.zaxxer.hikari.pool.HikariPool] [INFO ] - HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@1d1b3ba
-[31/07/2024 03:56:24] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-2 - Start completed.
-[31/07/2024 03:56:24] [org.hibernate.orm.deprecation] [WARN ] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-[31/07/2024 03:56:24] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [INFO ] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-[31/07/2024 03:56:24] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Initialized JPA EntityManagerFactory for persistence unit 'default'
-[31/07/2024 03:56:24] [org.springframework.security.config.annotation.authentication.configuration.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer] [INFO ] - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-[31/07/2024 03:56:24] [org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer] [WARN ] - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
-[31/07/2024 03:56:24] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [WARN ] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-[31/07/2024 03:56:24] [org.springframework.security.web.DefaultSecurityFilterChain] [DEBUG] - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
-[31/07/2024 03:56:24] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [INFO ] - LiveReload server is running on port 35729
-[31/07/2024 03:56:24] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO ] - Tomcat started on port 8080 (http) with context path '/'
-[31/07/2024 03:56:24] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - Started CamilaBackApplication in 1.992 seconds (process running for 391.341)
-[31/07/2024 03:56:24] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [INFO ] - Condition evaluation unchanged
-[31/07/2024 03:56:47] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [INFO ] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-[31/07/2024 03:56:47] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Closing JPA EntityManagerFactory for persistence unit 'default'
-[31/07/2024 03:56:47] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-2 - Shutdown initiated...
-[31/07/2024 03:56:47] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-2 - Shutdown completed.
-[31/07/2024 03:56:47] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - Starting CamilaBackApplication using Java 22.0.1 with PID 16224 (C:\Users\Juan\OneDrive\Documentos\CamilaBack\target\classes started by Juan in C:\Users\Juan\OneDrive\Documentos\CamilaBack)
-[31/07/2024 03:56:47] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - No active profile set, falling back to 1 default profile: "default"
-[31/07/2024 03:56:48] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-[31/07/2024 03:56:48] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Finished Spring Data repository scanning in 25 ms. Found 1 JPA repository interface.
-[31/07/2024 03:56:48] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO ] - Tomcat initialized with port 8080 (http)
-[31/07/2024 03:56:48] [org.apache.catalina.core.StandardService] [INFO ] - Starting service [Tomcat]
-[31/07/2024 03:56:48] [org.apache.catalina.core.StandardEngine] [INFO ] - Starting Servlet engine: [Apache Tomcat/10.1.26]
-[31/07/2024 03:56:48] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [INFO ] - Initializing Spring embedded WebApplicationContext
-[31/07/2024 03:56:48] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [INFO ] - Root WebApplicationContext: initialization completed in 513 ms
-[31/07/2024 03:56:48] [org.hibernate.jpa.internal.util.LogHelper] [INFO ] - HHH000204: Processing PersistenceUnitInfo [name: default]
-[31/07/2024 03:56:48] [org.hibernate.cache.internal.RegionFactoryInitiator] [INFO ] - HHH000026: Second-level cache disabled
-[31/07/2024 03:56:48] [org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo] [INFO ] - No LoadTimeWeaver setup: ignoring JPA class transformer
-[31/07/2024 03:56:48] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-3 - Starting...
-[31/07/2024 03:56:48] [com.zaxxer.hikari.pool.HikariPool] [INFO ] - HikariPool-3 - Added connection org.postgresql.jdbc.PgConnection@4df775c6
-[31/07/2024 03:56:48] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-3 - Start completed.
-[31/07/2024 03:56:48] [org.hibernate.orm.deprecation] [WARN ] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-[31/07/2024 03:56:48] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [INFO ] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-[31/07/2024 03:56:48] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Initialized JPA EntityManagerFactory for persistence unit 'default'
-[31/07/2024 03:56:48] [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] [WARN ] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authController' defined in file [C:\Users\Juan\OneDrive\Documentos\CamilaBack\target\classes\ACCES\CAMILA\CamilaBack\Acces\AuthController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'authService' defined in file [C:\Users\Juan\OneDrive\Documentos\CamilaBack\target\classes\ACCES\CAMILA\CamilaBack\ServicesImpl\AuthService.class]: Unsatisfied dependency expressed through constructor parameter 3: Error creating bean with name 'authenticationManager' defined in class path resource [ACCES/CAMILA/CamilaBack/Config/ApplicationConfig.class]: Failed to instantiate [org.springframework.security.authentication.AuthenticationManager]: Factory method 'authenticationManager' threw exception with message: Error creating bean with name 'securityConfig' defined in file [C:\Users\Juan\OneDrive\Documentos\CamilaBack\target\classes\ACCES\CAMILA\CamilaBack\Config\SecurityConfig.class]: Failed to instantiate [ACCES.CAMILA.CamilaBack.Config.SecurityConfig$$SpringCGLIB$$0]: Constructor threw exception
-[31/07/2024 03:56:48] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Closing JPA EntityManagerFactory for persistence unit 'default'
-[31/07/2024 03:56:48] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-3 - Shutdown initiated...
-[31/07/2024 03:56:48] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-3 - Shutdown completed.
-[31/07/2024 03:56:48] [org.apache.catalina.core.StandardService] [INFO ] - Stopping service [Tomcat]
-[31/07/2024 03:56:48] [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger] [INFO ] - 
-
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-[31/07/2024 03:56:48] [org.springframework.boot.SpringApplication] [ERROR] - Application run failed
-org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authController' defined in file [C:\Users\Juan\OneDrive\Documentos\CamilaBack\target\classes\ACCES\CAMILA\CamilaBack\Acces\AuthController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'authService' defined in file [C:\Users\Juan\OneDrive\Documentos\CamilaBack\target\classes\ACCES\CAMILA\CamilaBack\ServicesImpl\AuthService.class]: Unsatisfied dependency expressed through constructor parameter 3: Error creating bean with name 'authenticationManager' defined in class path resource [ACCES/CAMILA/CamilaBack/Config/ApplicationConfig.class]: Failed to instantiate [org.springframework.security.authentication.AuthenticationManager]: Factory method 'authenticationManager' threw exception with message: Error creating bean with name 'securityConfig' defined in file [C:\Users\Juan\OneDrive\Documentos\CamilaBack\target\classes\ACCES\CAMILA\CamilaBack\Config\SecurityConfig.class]: Failed to instantiate [ACCES.CAMILA.CamilaBack.Config.SecurityConfig$$SpringCGLIB$$0]: Constructor threw exception
-	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:795) ~[spring-beans-6.1.11.jar:6.1.11]
-	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:237) ~[spring-beans-6.1.11.jar:6.1.11]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1375) ~[spring-beans-6.1.11.jar:6.1.11]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1212) ~[spring-beans-6.1.11.jar:6.1.11]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.11.jar:6.1.11]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.11.jar:6.1.11]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.11.jar:6.1.11]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.11.jar:6.1.11]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.11.jar:6.1.11]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.11.jar:6.1.11]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975) ~[spring-beans-6.1.11.jar:6.1.11]
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971) ~[spring-context-6.1.11.jar:6.1.11]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.11.jar:6.1.11]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.2.jar:3.3.2]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.2.jar:3.3.2]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.2.jar:3.3.2]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.2.jar:3.3.2]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.2.jar:3.3.2]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.2.jar:3.3.2]
-	at ACCES.CAMILA.CamilaBack.CamilaBackApplication.main(CamilaBackApplication.java:10) ~[classes/:na]
+[02/08/2024 12:15:46] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Securing POST /cam/login
+[02/08/2024 12:15:47] [org.springframework.security.web.authentication.AnonymousAuthenticationFilter] [DEBUG] - Set SecurityContextHolder to anonymous SecurityContext
+[02/08/2024 12:15:47] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Secured POST /cam/login
+[02/08/2024 12:15:47] [org.springframework.security.authentication.dao.DaoAuthenticationProvider] [DEBUG] - Authenticated user
+[02/08/2024 12:15:48] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Securing POST /cam/login
+[02/08/2024 12:15:48] [org.springframework.security.web.authentication.AnonymousAuthenticationFilter] [DEBUG] - Set SecurityContextHolder to anonymous SecurityContext
+[02/08/2024 12:15:48] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Secured POST /cam/login
+[02/08/2024 12:15:48] [org.springframework.security.authentication.dao.DaoAuthenticationProvider] [DEBUG] - Authenticated user
+[02/08/2024 12:15:50] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Securing POST /cam/login
+[02/08/2024 12:15:50] [org.springframework.security.web.authentication.AnonymousAuthenticationFilter] [DEBUG] - Set SecurityContextHolder to anonymous SecurityContext
+[02/08/2024 12:15:50] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Secured POST /cam/login
+[02/08/2024 12:15:50] [org.springframework.security.authentication.dao.DaoAuthenticationProvider] [DEBUG] - Authenticated user
+[02/08/2024 02:04:04] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Securing POST /cam/login
+[02/08/2024 02:04:04] [org.springframework.security.web.authentication.AnonymousAuthenticationFilter] [DEBUG] - Set SecurityContextHolder to anonymous SecurityContext
+[02/08/2024 02:04:04] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Secured POST /cam/login
+[02/08/2024 02:04:05] [org.springframework.security.authentication.dao.DaoAuthenticationProvider] [DEBUG] - Authenticated user
+[02/08/2024 02:10:44] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Securing POST /cam/login
+[02/08/2024 02:10:44] [org.springframework.security.web.authentication.AnonymousAuthenticationFilter] [DEBUG] - Set SecurityContextHolder to anonymous SecurityContext
+[02/08/2024 02:10:44] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Secured POST /cam/login
+[02/08/2024 02:10:44] [org.springframework.security.authentication.dao.DaoAuthenticationProvider] [DEBUG] - Authenticated user
+[02/08/2024 02:15:15] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Securing POST /cam/login
+[02/08/2024 02:15:15] [org.springframework.security.web.authentication.AnonymousAuthenticationFilter] [DEBUG] - Set SecurityContextHolder to anonymous SecurityContext
+[02/08/2024 02:15:15] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Secured POST /cam/login
+[02/08/2024 02:15:15] [org.springframework.security.authentication.dao.DaoAuthenticationProvider] [DEBUG] - Authenticated user
+[02/08/2024 02:21:47] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Securing POST /cam/login
+[02/08/2024 02:21:47] [org.springframework.security.web.authentication.AnonymousAuthenticationFilter] [DEBUG] - Set SecurityContextHolder to anonymous SecurityContext
+[02/08/2024 02:21:47] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Secured POST /cam/login
+[02/08/2024 02:21:47] [org.springframework.security.authentication.dao.DaoAuthenticationProvider] [DEBUG] - Authenticated user
+[02/08/2024 02:50:28] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Securing POST /cam/login
+[02/08/2024 02:50:28] [org.springframework.security.web.authentication.AnonymousAuthenticationFilter] [DEBUG] - Set SecurityContextHolder to anonymous SecurityContext
+[02/08/2024 02:50:28] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Secured POST /cam/login
+[02/08/2024 02:50:29] [org.springframework.security.authentication.dao.DaoAuthenticationProvider] [DEBUG] - Authenticated user
+[02/08/2024 02:55:05] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Securing POST /cam/login
+[02/08/2024 02:55:05] [org.springframework.security.web.authentication.AnonymousAuthenticationFilter] [DEBUG] - Set SecurityContextHolder to anonymous SecurityContext
+[02/08/2024 02:55:05] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Secured POST /cam/login
+[02/08/2024 02:55:05] [org.springframework.security.authentication.dao.DaoAuthenticationProvider] [DEBUG] - Authenticated user
+[02/08/2024 03:18:23] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Securing POST /cam/login
+[02/08/2024 03:18:23] [org.springframework.security.web.authentication.AnonymousAuthenticationFilter] [DEBUG] - Set SecurityContextHolder to anonymous SecurityContext
+[02/08/2024 03:18:23] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Secured POST /cam/login
+[02/08/2024 03:18:23] [org.springframework.security.authentication.dao.DaoAuthenticationProvider] [DEBUG] - Authenticated user
+[02/08/2024 03:33:17] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Securing POST /cam/login
+[02/08/2024 03:33:17] [org.springframework.security.web.authentication.AnonymousAuthenticationFilter] [DEBUG] - Set SecurityContextHolder to anonymous SecurityContext
+[02/08/2024 03:33:17] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Secured POST /cam/login
+[02/08/2024 03:33:17] [org.springframework.security.authentication.dao.DaoAuthenticationProvider] [DEBUG] - Authenticated user
+[02/08/2024 03:43:00] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Securing POST /cam/login
+[02/08/2024 03:43:00] [org.springframework.security.web.authentication.AnonymousAuthenticationFilter] [DEBUG] - Set SecurityContextHolder to anonymous SecurityContext
+[02/08/2024 03:43:00] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Secured POST /cam/login
+[02/08/2024 03:43:00] [org.springframework.security.authentication.dao.DaoAuthenticationProvider] [DEBUG] - Authenticated user
+[02/08/2024 03:53:43] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Securing POST /cam/login
+[02/08/2024 03:53:43] [org.springframework.security.web.authentication.AnonymousAuthenticationFilter] [DEBUG] - Set SecurityContextHolder to anonymous SecurityContext
+[02/08/2024 03:53:43] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Secured POST /cam/login
+[02/08/2024 03:53:44] [org.springframework.security.authentication.dao.DaoAuthenticationProvider] [DEBUG] - Authenticated user
+[02/08/2024 03:55:55] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Securing POST /cam/login
+[02/08/2024 03:55:55] [org.springframework.security.web.authentication.AnonymousAuthenticationFilter] [DEBUG] - Set SecurityContextHolder to anonymous SecurityContext
+[02/08/2024 03:55:55] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Secured POST /cam/login
+[02/08/2024 03:55:55] [org.springframework.security.authentication.dao.DaoAuthenticationProvider] [DEBUG] - Authenticated user
+[02/08/2024 04:06:07] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Securing POST /cam/login
+[02/08/2024 04:06:07] [org.springframework.security.web.authentication.AnonymousAuthenticationFilter] [DEBUG] - Set SecurityContextHolder to anonymous SecurityContext
+[02/08/2024 04:06:07] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Secured POST /cam/login
+[02/08/2024 04:06:07] [org.springframework.security.authentication.dao.DaoAuthenticationProvider] [DEBUG] - Authenticated user
+[02/08/2024 04:28:49] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Securing POST /cam/login
+[02/08/2024 04:28:49] [org.springframework.security.web.authentication.AnonymousAuthenticationFilter] [DEBUG] - Set SecurityContextHolder to anonymous SecurityContext
+[02/08/2024 04:28:49] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Secured POST /cam/login
+[02/08/2024 04:28:49] [org.springframework.security.authentication.dao.DaoAuthenticationProvider] [DEBUG] - Authenticated user
+[02/08/2024 04:46:00] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Securing POST /cam/login
+[02/08/2024 04:46:00] [org.springframework.security.web.authentication.AnonymousAuthenticationFilter] [DEBUG] - Set SecurityContextHolder to anonymous SecurityContext
+[02/08/2024 04:46:00] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Secured POST /cam/login
+[02/08/2024 04:46:00] [org.springframework.security.authentication.dao.DaoAuthenticationProvider] [DEBUG] - Authenticated user
+[02/08/2024 05:04:09] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Securing POST /cam/login
+[02/08/2024 05:04:09] [org.springframework.security.web.authentication.AnonymousAuthenticationFilter] [DEBUG] - Set SecurityContextHolder to anonymous SecurityContext
+[02/08/2024 05:04:09] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Secured POST /cam/login
+[02/08/2024 05:04:09] [org.springframework.security.authentication.dao.DaoAuthenticationProvider] [DEBUG] - Authenticated user
+[02/08/2024 05:04:56] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Securing POST /cam/login
+[02/08/2024 05:04:56] [org.springframework.security.web.authentication.AnonymousAuthenticationFilter] [DEBUG] - Set SecurityContextHolder to anonymous SecurityContext
+[02/08/2024 05:04:56] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Secured POST /cam/login
+[02/08/2024 05:04:56] [org.springframework.security.authentication.dao.DaoAuthenticationProvider] [DEBUG] - Authenticated user
+[02/08/2024 05:09:15] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Securing POST /cam/login
+[02/08/2024 05:09:15] [org.springframework.security.web.authentication.AnonymousAuthenticationFilter] [DEBUG] - Set SecurityContextHolder to anonymous SecurityContext
+[02/08/2024 05:09:15] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Secured POST /cam/login
+[02/08/2024 05:09:15] [org.springframework.security.authentication.dao.DaoAuthenticationProvider] [DEBUG] - Authenticated user
+[02/08/2024 05:12:32] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Securing POST /cam/login
+[02/08/2024 05:12:32] [org.springframework.security.web.authentication.AnonymousAuthenticationFilter] [DEBUG] - Set SecurityContextHolder to anonymous SecurityContext
+[02/08/2024 05:12:32] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Secured POST /cam/login
+[02/08/2024 05:12:32] [org.springframework.security.authentication.dao.DaoAuthenticationProvider] [DEBUG] - Authenticated user
+[02/08/2024 05:15:01] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Securing POST /cam/register
+[02/08/2024 05:15:01] [org.springframework.security.web.authentication.AnonymousAuthenticationFilter] [DEBUG] - Set SecurityContextHolder to anonymous SecurityContext
+[02/08/2024 05:15:01] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Secured POST /cam/register
+[02/08/2024 05:15:08] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Securing POST /cam/login
+[02/08/2024 05:15:08] [org.springframework.security.web.authentication.AnonymousAuthenticationFilter] [DEBUG] - Set SecurityContextHolder to anonymous SecurityContext
+[02/08/2024 05:15:08] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Secured POST /cam/login
+[02/08/2024 05:15:08] [org.springframework.security.authentication.dao.DaoAuthenticationProvider] [DEBUG] - Authenticated user
+[02/08/2024 05:24:58] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Securing POST /cam/register
+[02/08/2024 05:24:58] [org.springframework.security.web.authentication.AnonymousAuthenticationFilter] [DEBUG] - Set SecurityContextHolder to anonymous SecurityContext
+[02/08/2024 05:24:58] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Secured POST /cam/register
+[02/08/2024 05:24:59] [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] [WARN ] - SQL Error: 0, SQLState: 23505
+[02/08/2024 05:24:59] [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] [ERROR] - ERROR: llave duplicada viola restricción de unicidad «usuario_username_key»
+  Detail: Ya existe la llave (username)=(Juan).
+[02/08/2024 05:24:59] [org.apache.catalina.core.ContainerBase.[Tomcat-1].[localhost].[/].[dispatcherServlet]] [ERROR] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.DataIntegrityViolationException: could not execute statement [ERROR: llave duplicada viola restricción de unicidad «usuario_username_key»
+  Detail: Ya existe la llave (username)=(Juan).] [insert into usuario (enabled,firstname,lastname,password,phone_number,rfc,role,sex,username) values (?,?,?,?,?,?,?,?,?) returning id]; SQL [insert into usuario (enabled,firstname,lastname,password,phone_number,rfc,role,sex,username) values (?,?,?,?,?,?,?,?,?) returning id]; constraint [null]] with root cause
+org.postgresql.util.PSQLException: ERROR: llave duplicada viola restricción de unicidad «usuario_username_key»
+  Detail: Ya existe la llave (username)=(Juan).
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194) ~[postgresql-42.7.3.jar:42.7.3]
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:180) ~[postgresql-42.7.3.jar:42.7.3]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java) ~[HikariCP-5.1.0.jar:na]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.execute(ResultSetReturnImpl.java:129) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.id.insert.InsertReturningDelegate.executeAndExtractReturning(InsertReturningDelegate.java:96) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.id.insert.AbstractReturningDelegate.performMutation(AbstractReturningDelegate.java:58) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:47) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:55) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.doStaticInserts(InsertCoordinatorStandard.java:194) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.coordinateInsert(InsertCoordinatorStandard.java:132) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.insert(InsertCoordinatorStandard.java:95) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:85) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:670) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:291) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:272) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:322) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:391) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:305) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:224) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:137) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:175) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.persist(DefaultPersistEventListener.java:93) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:77) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:54) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:757) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:741) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
-	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.3.2.jar:3.3.2]
-Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authService' defined in file [C:\Users\Juan\OneDrive\Documentos\CamilaBack\target\classes\ACCES\CAMILA\CamilaBack\ServicesImpl\AuthService.class]: Unsatisfied dependency expressed through constructor parameter 3: Error creating bean with name 'authenticationManager' defined in class path resource [ACCES/CAMILA/CamilaBack/Config/ApplicationConfig.class]: Failed to instantiate [org.springframework.security.authentication.AuthenticationManager]: Factory method 'authenticationManager' threw exception with message: Error creating bean with name 'securityConfig' defined in file [C:\Users\Juan\OneDrive\Documentos\CamilaBack\target\classes\ACCES\CAMILA\CamilaBack\Config\SecurityConfig.class]: Failed to instantiate [ACCES.CAMILA.CamilaBack.Config.SecurityConfig$$SpringCGLIB$$0]: Constructor threw exception
-	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:795) ~[spring-beans-6.1.11.jar:6.1.11]
-	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:237) ~[spring-beans-6.1.11.jar:6.1.11]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1375) ~[spring-beans-6.1.11.jar:6.1.11]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1212) ~[spring-beans-6.1.11.jar:6.1.11]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.11.jar:6.1.11]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.11.jar:6.1.11]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.11.jar:6.1.11]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.11.jar:6.1.11]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.11.jar:6.1.11]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.11.jar:6.1.11]
-	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254) ~[spring-beans-6.1.11.jar:6.1.11]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443) ~[spring-beans-6.1.11.jar:6.1.11]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353) ~[spring-beans-6.1.11.jar:6.1.11]
-	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:904) ~[spring-beans-6.1.11.jar:6.1.11]
-	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:782) ~[spring-beans-6.1.11.jar:6.1.11]
-	... 22 common frames omitted
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authenticationManager' defined in class path resource [ACCES/CAMILA/CamilaBack/Config/ApplicationConfig.class]: Failed to instantiate [org.springframework.security.authentication.AuthenticationManager]: Factory method 'authenticationManager' threw exception with message: Error creating bean with name 'securityConfig' defined in file [C:\Users\Juan\OneDrive\Documentos\CamilaBack\target\classes\ACCES\CAMILA\CamilaBack\Config\SecurityConfig.class]: Failed to instantiate [ACCES.CAMILA.CamilaBack.Config.SecurityConfig$$SpringCGLIB$$0]: Constructor threw exception
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:648) ~[spring-beans-6.1.11.jar:6.1.11]
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:636) ~[spring-beans-6.1.11.jar:6.1.11]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1355) ~[spring-beans-6.1.11.jar:6.1.11]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1185) ~[spring-beans-6.1.11.jar:6.1.11]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.11.jar:6.1.11]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.11.jar:6.1.11]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.11.jar:6.1.11]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.11.jar:6.1.11]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.11.jar:6.1.11]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.11.jar:6.1.11]
-	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254) ~[spring-beans-6.1.11.jar:6.1.11]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443) ~[spring-beans-6.1.11.jar:6.1.11]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353) ~[spring-beans-6.1.11.jar:6.1.11]
-	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:904) ~[spring-beans-6.1.11.jar:6.1.11]
-	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:782) ~[spring-beans-6.1.11.jar:6.1.11]
-	... 36 common frames omitted
-Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.security.authentication.AuthenticationManager]: Factory method 'authenticationManager' threw exception with message: Error creating bean with name 'securityConfig' defined in file [C:\Users\Juan\OneDrive\Documentos\CamilaBack\target\classes\ACCES\CAMILA\CamilaBack\Config\SecurityConfig.class]: Failed to instantiate [ACCES.CAMILA.CamilaBack.Config.SecurityConfig$$SpringCGLIB$$0]: Constructor threw exception
-	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:178) ~[spring-beans-6.1.11.jar:6.1.11]
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:644) ~[spring-beans-6.1.11.jar:6.1.11]
-	... 50 common frames omitted
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'securityConfig' defined in file [C:\Users\Juan\OneDrive\Documentos\CamilaBack\target\classes\ACCES\CAMILA\CamilaBack\Config\SecurityConfig.class]: Failed to instantiate [ACCES.CAMILA.CamilaBack.Config.SecurityConfig$$SpringCGLIB$$0]: Constructor threw exception
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:318) ~[spring-beans-6.1.11.jar:6.1.11]
-	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:306) ~[spring-beans-6.1.11.jar:6.1.11]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1375) ~[spring-beans-6.1.11.jar:6.1.11]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1212) ~[spring-beans-6.1.11.jar:6.1.11]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.11.jar:6.1.11]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.11.jar:6.1.11]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.11.jar:6.1.11]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.11.jar:6.1.11]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.11.jar:6.1.11]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.11.jar:6.1.11]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansWithAnnotation(DefaultListableBeanFactory.java:713) ~[spring-beans-6.1.11.jar:6.1.11]
-	at org.springframework.context.support.AbstractApplicationContext.getBeansWithAnnotation(AbstractApplicationContext.java:1411) ~[spring-context-6.1.11.jar:6.1.11]
-	at org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration$EnableGlobalAuthenticationAutowiredConfigurer.init(AuthenticationConfiguration.java:222) ~[spring-security-config-6.3.1.jar:6.3.1]
-	at org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration$EnableGlobalAuthenticationAutowiredConfigurer.init(AuthenticationConfiguration.java:209) ~[spring-security-config-6.3.1.jar:6.3.1]
-	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.init(AbstractConfiguredSecurityBuilder.java:365) ~[spring-security-config-6.3.1.jar:6.3.1]
-	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.doBuild(AbstractConfiguredSecurityBuilder.java:327) ~[spring-security-config-6.3.1.jar:6.3.1]
-	at org.springframework.security.config.annotation.AbstractSecurityBuilder.build(AbstractSecurityBuilder.java:38) ~[spring-security-config-6.3.1.jar:6.3.1]
-	at org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration.getAuthenticationManager(AuthenticationConfiguration.java:121) ~[spring-security-config-6.3.1.jar:6.3.1]
-	at ACCES.CAMILA.CamilaBack.Config.ApplicationConfig.authenticationManager(ApplicationConfig.java:25) ~[classes/:na]
-	at ACCES.CAMILA.CamilaBack.Config.ApplicationConfig$$SpringCGLIB$$0.CGLIB$authenticationManager$1(<generated>) ~[classes/:na]
-	at ACCES.CAMILA.CamilaBack.Config.ApplicationConfig$$SpringCGLIB$$FastClass$$1.invoke(<generated>) ~[classes/:na]
-	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258) ~[spring-core-6.1.11.jar:6.1.11]
-	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:348) ~[spring-context-6.1.11.jar:6.1.11]
-	at ACCES.CAMILA.CamilaBack.Config.ApplicationConfig$$SpringCGLIB$$0.authenticationManager(<generated>) ~[classes/:na]
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:364) ~[spring-orm-6.1.11.jar:6.1.11]
+	at jdk.proxy14/jdk.proxy14.$Proxy151.persist(Unknown Source) ~[na:na]
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
-	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:146) ~[spring-beans-6.1.11.jar:6.1.11]
-	... 51 common frames omitted
-Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [ACCES.CAMILA.CamilaBack.Config.SecurityConfig$$SpringCGLIB$$0]: Constructor threw exception
-	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:221) ~[spring-beans-6.1.11.jar:6.1.11]
-	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:117) ~[spring-beans-6.1.11.jar:6.1.11]
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:315) ~[spring-beans-6.1.11.jar:6.1.11]
-	... 77 common frames omitted
-Caused by: java.lang.Error: Unresolved compilation problem: 
-
-	at ACCES.CAMILA.CamilaBack.Config.SecurityConfig.<init>(SecurityConfig.java:16) ~[classes/:na]
-	at ACCES.CAMILA.CamilaBack.Config.SecurityConfig$$SpringCGLIB$$0.<init>(<generated>) ~[classes/:na]
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[na:na]
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[na:na]
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[na:na]
-	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:208) ~[spring-beans-6.1.11.jar:6.1.11]
-	... 79 common frames omitted
-[31/07/2024 03:56:52] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - Starting CamilaBackApplication using Java 22.0.1 with PID 16224 (C:\Users\Juan\OneDrive\Documentos\CamilaBack\target\classes started by Juan in C:\Users\Juan\OneDrive\Documentos\CamilaBack)
-[31/07/2024 03:56:52] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - No active profile set, falling back to 1 default profile: "default"
-[31/07/2024 03:56:53] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-[31/07/2024 03:56:53] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Finished Spring Data repository scanning in 30 ms. Found 1 JPA repository interface.
-[31/07/2024 03:56:53] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO ] - Tomcat initialized with port 8080 (http)
-[31/07/2024 03:56:53] [org.apache.catalina.core.StandardService] [INFO ] - Starting service [Tomcat]
-[31/07/2024 03:56:53] [org.apache.catalina.core.StandardEngine] [INFO ] - Starting Servlet engine: [Apache Tomcat/10.1.26]
-[31/07/2024 03:56:53] [org.apache.catalina.core.ContainerBase.[Tomcat-1].[localhost].[/]] [INFO ] - Initializing Spring embedded WebApplicationContext
-[31/07/2024 03:56:53] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [INFO ] - Root WebApplicationContext: initialization completed in 948 ms
-[31/07/2024 03:56:53] [org.hibernate.jpa.internal.util.LogHelper] [INFO ] - HHH000204: Processing PersistenceUnitInfo [name: default]
-[31/07/2024 03:56:53] [org.hibernate.cache.internal.RegionFactoryInitiator] [INFO ] - HHH000026: Second-level cache disabled
-[31/07/2024 03:56:53] [org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo] [INFO ] - No LoadTimeWeaver setup: ignoring JPA class transformer
-[31/07/2024 03:56:53] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-4 - Starting...
-[31/07/2024 03:56:53] [com.zaxxer.hikari.pool.HikariPool] [INFO ] - HikariPool-4 - Added connection org.postgresql.jdbc.PgConnection@39e48a16
-[31/07/2024 03:56:53] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-4 - Start completed.
-[31/07/2024 03:56:53] [org.hibernate.orm.deprecation] [WARN ] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-[31/07/2024 03:56:53] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [INFO ] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-[31/07/2024 03:56:53] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Initialized JPA EntityManagerFactory for persistence unit 'default'
-[31/07/2024 03:56:54] [org.springframework.security.config.annotation.authentication.configuration.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer] [INFO ] - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-[31/07/2024 03:56:54] [org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer] [WARN ] - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
-[31/07/2024 03:56:54] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [WARN ] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-[31/07/2024 03:56:54] [org.springframework.security.web.DefaultSecurityFilterChain] [DEBUG] - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
-[31/07/2024 03:56:54] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [INFO ] - LiveReload server is running on port 35729
-[31/07/2024 03:56:54] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO ] - Tomcat started on port 8080 (http) with context path '/'
-[31/07/2024 03:56:54] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - Started CamilaBackApplication in 2.08 seconds (process running for 420.987)
-[31/07/2024 03:56:54] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [INFO ] - Condition evaluation unchanged
-[31/07/2024 03:57:38] [org.apache.catalina.core.ContainerBase.[Tomcat-1].[localhost].[/]] [INFO ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-[31/07/2024 03:57:38] [org.springframework.web.servlet.DispatcherServlet] [INFO ] - Initializing Servlet 'dispatcherServlet'
-[31/07/2024 03:57:38] [org.springframework.web.servlet.DispatcherServlet] [INFO ] - Completed initialization in 1 ms
-[31/07/2024 03:57:38] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Securing POST /cam/register
-[31/07/2024 03:57:38] [org.springframework.security.web.authentication.AnonymousAuthenticationFilter] [DEBUG] - Set SecurityContextHolder to anonymous SecurityContext
-[31/07/2024 03:57:38] [org.springframework.security.web.session.SessionManagementFilter] [DEBUG] - Request requested invalid session id 2E578C2839CBA295FB366F60041AD0F3
-[31/07/2024 03:57:38] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Secured POST /cam/register
-[31/07/2024 03:59:36] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Securing POST /cam/login
-[31/07/2024 03:59:36] [org.springframework.security.web.authentication.AnonymousAuthenticationFilter] [DEBUG] - Set SecurityContextHolder to anonymous SecurityContext
-[31/07/2024 03:59:36] [org.springframework.security.web.session.SessionManagementFilter] [DEBUG] - Request requested invalid session id 2E578C2839CBA295FB366F60041AD0F3
-[31/07/2024 03:59:36] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Secured POST /cam/login
-[31/07/2024 03:59:37] [org.springframework.security.authentication.dao.DaoAuthenticationProvider] [DEBUG] - Authenticated user
-[31/07/2024 04:03:20] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - Starting CamilaBackApplication using Java 22.0.1 with PID 13704 (C:\Users\Juan\OneDrive\Documentos\CamilaBack\target\classes started by Juan in C:\Users\Juan\OneDrive\Documentos\CamilaBack)
-[31/07/2024 04:03:20] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - No active profile set, falling back to 1 default profile: "default"
-[31/07/2024 04:03:20] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [INFO ] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-[31/07/2024 04:03:20] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [INFO ] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-[31/07/2024 04:03:21] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-[31/07/2024 04:03:21] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Finished Spring Data repository scanning in 133 ms. Found 1 JPA repository interface.
-[31/07/2024 04:03:23] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO ] - Tomcat initialized with port 8080 (http)
-[31/07/2024 04:03:23] [org.apache.catalina.core.StandardService] [INFO ] - Starting service [Tomcat]
-[31/07/2024 04:03:23] [org.apache.catalina.core.StandardEngine] [INFO ] - Starting Servlet engine: [Apache Tomcat/10.1.26]
-[31/07/2024 04:03:23] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [INFO ] - Initializing Spring embedded WebApplicationContext
-[31/07/2024 04:03:23] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [INFO ] - Root WebApplicationContext: initialization completed in 2577 ms
-[31/07/2024 04:03:23] [org.hibernate.jpa.internal.util.LogHelper] [INFO ] - HHH000204: Processing PersistenceUnitInfo [name: default]
-[31/07/2024 04:03:23] [org.hibernate.Version] [INFO ] - HHH000412: Hibernate ORM core version 6.5.2.Final
-[31/07/2024 04:03:23] [org.hibernate.cache.internal.RegionFactoryInitiator] [INFO ] - HHH000026: Second-level cache disabled
-[31/07/2024 04:03:24] [org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo] [INFO ] - No LoadTimeWeaver setup: ignoring JPA class transformer
-[31/07/2024 04:03:24] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Starting...
-[31/07/2024 04:03:24] [com.zaxxer.hikari.pool.HikariPool] [INFO ] - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3943c6e9
-[31/07/2024 04:03:24] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Start completed.
-[31/07/2024 04:03:24] [org.hibernate.orm.deprecation] [WARN ] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-[31/07/2024 04:03:25] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [INFO ] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-[31/07/2024 04:03:25] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Initialized JPA EntityManagerFactory for persistence unit 'default'
-[31/07/2024 04:03:26] [org.springframework.security.config.annotation.authentication.configuration.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer] [INFO ] - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-[31/07/2024 04:03:26] [org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer] [WARN ] - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
-[31/07/2024 04:03:26] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [WARN ] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-[31/07/2024 04:03:26] [org.springframework.security.web.DefaultSecurityFilterChain] [DEBUG] - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
-[31/07/2024 04:03:27] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [INFO ] - LiveReload server is running on port 35729
-[31/07/2024 04:03:27] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO ] - Tomcat started on port 8080 (http) with context path '/'
-[31/07/2024 04:03:27] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - Started CamilaBackApplication in 7.411 seconds (process running for 8.575)
-[31/07/2024 04:10:42] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [INFO ] - Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
-[31/07/2024 04:10:42] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Closing JPA EntityManagerFactory for persistence unit 'default'
-[31/07/2024 04:10:42] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Shutdown initiated...
-[31/07/2024 04:10:42] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Shutdown completed.
-[31/07/2024 04:10:42] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - Starting CamilaBackApplication using Java 22.0.1 with PID 13704 (C:\Users\Juan\OneDrive\Documentos\CamilaBack\target\classes started by Juan in C:\Users\Juan\OneDrive\Documentos\CamilaBack)
-[31/07/2024 04:10:42] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - No active profile set, falling back to 1 default profile: "default"
-[31/07/2024 04:10:43] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-[31/07/2024 04:10:43] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Finished Spring Data repository scanning in 17 ms. Found 1 JPA repository interface.
-[31/07/2024 04:10:43] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO ] - Tomcat initialized with port 8080 (http)
-[31/07/2024 04:10:43] [org.apache.catalina.core.StandardService] [INFO ] - Starting service [Tomcat]
-[31/07/2024 04:10:43] [org.apache.catalina.core.StandardEngine] [INFO ] - Starting Servlet engine: [Apache Tomcat/10.1.26]
-[31/07/2024 04:10:43] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [INFO ] - Initializing Spring embedded WebApplicationContext
-[31/07/2024 04:10:43] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [INFO ] - Root WebApplicationContext: initialization completed in 810 ms
-[31/07/2024 04:10:43] [org.hibernate.jpa.internal.util.LogHelper] [INFO ] - HHH000204: Processing PersistenceUnitInfo [name: default]
-[31/07/2024 04:10:43] [org.hibernate.cache.internal.RegionFactoryInitiator] [INFO ] - HHH000026: Second-level cache disabled
-[31/07/2024 04:10:43] [org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo] [INFO ] - No LoadTimeWeaver setup: ignoring JPA class transformer
-[31/07/2024 04:10:43] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-2 - Starting...
-[31/07/2024 04:10:43] [com.zaxxer.hikari.pool.HikariPool] [INFO ] - HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@abdf451
-[31/07/2024 04:10:43] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-2 - Start completed.
-[31/07/2024 04:10:43] [org.hibernate.orm.deprecation] [WARN ] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-[31/07/2024 04:10:44] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [INFO ] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-[31/07/2024 04:10:44] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Initialized JPA EntityManagerFactory for persistence unit 'default'
-[31/07/2024 04:10:44] [org.springframework.security.config.annotation.authentication.configuration.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer] [INFO ] - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-[31/07/2024 04:10:44] [org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer] [WARN ] - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
-[31/07/2024 04:10:44] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [WARN ] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-[31/07/2024 04:10:44] [org.springframework.security.web.DefaultSecurityFilterChain] [DEBUG] - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
-[31/07/2024 04:10:45] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [INFO ] - LiveReload server is running on port 35729
-[31/07/2024 04:10:45] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO ] - Tomcat started on port 8080 (http) with context path '/'
-[31/07/2024 04:10:45] [ACCES.CAMILA.CamilaBack.CamilaBackApplication] [INFO ] - Started CamilaBackApplication in 2.608 seconds (process running for 446.496)
-[31/07/2024 04:10:45] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [INFO ] - Condition evaluation unchanged
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:319) ~[spring-orm-6.1.11.jar:6.1.11]
+	at jdk.proxy14/jdk.proxy14.$Proxy151.persist(Unknown Source) ~[na:na]
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:629) ~[spring-data-jpa-3.3.2.jar:3.3.2]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:354) ~[spring-aop-6.1.11.jar:6.1.11]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:277) ~[spring-data-commons-3.3.2.jar:3.3.2]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170) ~[spring-data-commons-3.3.2.jar:3.3.2]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158) ~[spring-data-commons-3.3.2.jar:3.3.2]
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:516) ~[spring-data-commons-3.3.2.jar:3.3.2]
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285) ~[spring-data-commons-3.3.2.jar:3.3.2]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:628) ~[spring-data-commons-3.3.2.jar:3.3.2]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.11.jar:6.1.11]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:168) ~[spring-data-commons-3.3.2.jar:3.3.2]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:143) ~[spring-data-commons-3.3.2.jar:3.3.2]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.11.jar:6.1.11]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:70) ~[spring-data-commons-3.3.2.jar:3.3.2]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.11.jar:6.1.11]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:379) ~[spring-tx-6.1.11.jar:6.1.11]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.1.11.jar:6.1.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.11.jar:6.1.11]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138) ~[spring-tx-6.1.11.jar:6.1.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.11.jar:6.1.11]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:165) ~[spring-data-jpa-3.3.2.jar:3.3.2]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.11.jar:6.1.11]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-6.1.11.jar:6.1.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.11.jar:6.1.11]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223) ~[spring-aop-6.1.11.jar:6.1.11]
+	at jdk.proxy14/jdk.proxy14.$Proxy153.save(Unknown Source) ~[na:na]
+	at ACCES.CAMILA.CamilaBack.ServicesImpl.AuthService.register(AuthService.java:58) ~[classes/:na]
+	at ACCES.CAMILA.CamilaBack.Acces.AuthController.register(AuthController.java:36) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231) ~[spring-security-web-6.3.1.jar:6.3.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365) ~[spring-security-web-6.3.1.jar:6.3.1]
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:100) ~[spring-security-web-6.3.1.jar:6.3.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.1.jar:6.3.1]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126) ~[spring-security-web-6.3.1.jar:6.3.1]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120) ~[spring-security-web-6.3.1.jar:6.3.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.1.jar:6.3.1]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:131) ~[spring-security-web-6.3.1.jar:6.3.1]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:85) ~[spring-security-web-6.3.1.jar:6.3.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.1.jar:6.3.1]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100) ~[spring-security-web-6.3.1.jar:6.3.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.1.jar:6.3.1]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179) ~[spring-security-web-6.3.1.jar:6.3.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.1.jar:6.3.1]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-6.3.1.jar:6.3.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.1.jar:6.3.1]
+	at ACCES.CAMILA.CamilaBack.JWT.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:38) ~[classes/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.1.jar:6.3.1]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.3.1.jar:6.3.1]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.3.1.jar:6.3.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.1.jar:6.3.1]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.1.jar:6.3.1]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.3.1.jar:6.3.1]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.3.1.jar:6.3.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.1.jar:6.3.1]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.3.1.jar:6.3.1]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.3.1.jar:6.3.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.1.jar:6.3.1]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.3.1.jar:6.3.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.1.jar:6.3.1]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.3.1.jar:6.3.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.1.jar:6.3.1]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.3.1.jar:6.3.1]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.3.1.jar:6.3.1]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:230) ~[spring-security-config-6.3.1.jar:6.3.1]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
+[02/08/2024 05:24:59] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Securing POST /error
+[02/08/2024 05:24:59] [org.springframework.security.web.authentication.AnonymousAuthenticationFilter] [DEBUG] - Set SecurityContextHolder to anonymous SecurityContext
+[02/08/2024 05:24:59] [org.springframework.security.web.authentication.Http403ForbiddenEntryPoint] [DEBUG] - Pre-authenticated entry point called. Rejecting access
+[02/08/2024 05:26:49] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Securing POST /cam/register
+[02/08/2024 05:26:49] [org.springframework.security.web.authentication.AnonymousAuthenticationFilter] [DEBUG] - Set SecurityContextHolder to anonymous SecurityContext
+[02/08/2024 05:26:49] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Secured POST /cam/register
+[02/08/2024 05:27:00] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Securing POST /cam/login
+[02/08/2024 05:27:00] [org.springframework.security.web.authentication.AnonymousAuthenticationFilter] [DEBUG] - Set SecurityContextHolder to anonymous SecurityContext
+[02/08/2024 05:27:00] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Secured POST /cam/login
+[02/08/2024 05:27:00] [org.springframework.security.authentication.dao.DaoAuthenticationProvider] [DEBUG] - Authenticated user
+[02/08/2024 05:29:04] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Securing POST /cam/login
+[02/08/2024 05:29:04] [org.springframework.security.web.authentication.AnonymousAuthenticationFilter] [DEBUG] - Set SecurityContextHolder to anonymous SecurityContext
+[02/08/2024 05:29:04] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Secured POST /cam/login
+[02/08/2024 05:29:04] [org.springframework.security.authentication.dao.DaoAuthenticationProvider] [DEBUG] - Failed to authenticate since password does not match stored value
+[02/08/2024 05:29:04] [org.springframework.security.web.authentication.Http403ForbiddenEntryPoint] [DEBUG] - Pre-authenticated entry point called. Rejecting access
+[02/08/2024 05:29:04] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Securing POST /error
+[02/08/2024 05:29:04] [org.springframework.security.web.authentication.AnonymousAuthenticationFilter] [DEBUG] - Set SecurityContextHolder to anonymous SecurityContext
+[02/08/2024 05:29:04] [org.springframework.security.web.authentication.Http403ForbiddenEntryPoint] [DEBUG] - Pre-authenticated entry point called. Rejecting access
+[02/08/2024 05:29:13] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Securing POST /cam/login
+[02/08/2024 05:29:13] [org.springframework.security.web.authentication.AnonymousAuthenticationFilter] [DEBUG] - Set SecurityContextHolder to anonymous SecurityContext
+[02/08/2024 05:29:13] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Secured POST /cam/login
+[02/08/2024 05:29:13] [org.springframework.security.authentication.dao.DaoAuthenticationProvider] [DEBUG] - Authenticated user
+[02/08/2024 05:31:53] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Securing POST /cam/login
+[02/08/2024 05:31:53] [org.springframework.security.web.authentication.AnonymousAuthenticationFilter] [DEBUG] - Set SecurityContextHolder to anonymous SecurityContext
+[02/08/2024 05:31:53] [org.springframework.security.web.FilterChainProxy] [DEBUG] - Secured POST /cam/login
+[02/08/2024 05:31:53] [org.springframework.security.authentication.dao.DaoAuthenticationProvider] [DEBUG] - Authenticated user

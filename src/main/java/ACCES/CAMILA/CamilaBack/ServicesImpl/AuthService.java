@@ -63,4 +63,36 @@ public class AuthService {
         
     }
   
+    public User update(Integer id, RegisterRequest request) {
+        User user = userRepository.findById(id).orElseThrow();
+        user.setUsername(request.getUsername());
+        user.setFirstname(request.getFirstname());
+        user.setLastname(request.getLastname());
+        user.setSex(request.getSex());
+        user.setRfc(request.getRfc());
+        user.setPhone_Number(request.getPhone_Number());
+        Role role;
+        if (request.getRole() != null) {
+            try {
+                role = Role.valueOf(request.getRole().toUpperCase());
+            } catch (IllegalArgumentException e) {
+                role = Role.USER; // Valor predeterminado si el rol no es válido
+            }
+        } else {
+            role = Role.USER; // Valor predeterminado si el rol es null
+        }
+        user.setRole(role);
+        return userRepository.save(user);
+    }
+    
+    public void disable(Integer id) {
+        User user = userRepository.findById(id).orElseThrow();
+        user.setEnabled(false);
+        userRepository.save(user);
+    }
+    public void enable(Integer id) {
+        User user = userRepository.findById(id).orElseThrow();
+        user.setEnabled(true);
+        userRepository.save(user);
+    }
 }
