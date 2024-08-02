@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 @RestController
 @RequestMapping("/cam")
 @RequiredArgsConstructor
- @CrossOrigin(origins = "http://192.168.100.2:8080")
+ @CrossOrigin(origins = "http://192.168.100.2:8086")
 //  @CrossOrigin(origins = "http://localhost:8084")
 public class AuthController {
 
